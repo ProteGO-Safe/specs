@@ -1,0 +1,1 @@
+## Zasady współpracy nad projektem

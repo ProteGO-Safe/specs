@@ -1,0 +1,1 @@
+## Lista osób które podpisały oświadczenie o przekazaniu praw i brały udział w projekcie
