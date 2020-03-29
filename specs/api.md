@@ -116,11 +116,11 @@ Serwer zwraca status użytkownika: `"greeen"`, `"orange"` lub `"red"`.  Jeśli n
 
 Serwer zwraca identyfikatory którymi ma się rozgłaszać w określonych dniach i godzinach na 7 dni do przodu. Każdy `beacon_id` to identyfikator do rozgłaszania. Każdy `date` to data i godzina w formacie `YYYYmmddHH` określająca którym  identyfikatorem `beacon_id` powinien rozgłaszać się telefon w dniu i godzinie określonej przez `date`. Serwer zwraca tylko nowe identyfikatory biorąc pod uwagę `last_beacon_date`
 
-### Funkcja `/send_encounters`
+## Funkcja `/send_encounters`
 
 Wysłanie listy napotkanych urządzeń.
 
-## Parametry:
+### Parametry:
 `proof` : `string`
 `encounters` : `[{“encounters_date”: datetime, “beacon_id”, “signal_strength”}, …]`
 
