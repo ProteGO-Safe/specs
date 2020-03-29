@@ -1,6 +1,6 @@
 # Podstawowy opis aplikacji Anna
 
-##Rodzaje użytkowników
+## Rodzaje użytkowników
 
 **Użytkownik**
 
