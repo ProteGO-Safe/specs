@@ -1,1 +1,0 @@
-## Algorytm ustalania statusu użytkownika

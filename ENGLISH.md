@@ -1,1 +1,3 @@
-## Short description of the project in English
+## Short English overview of the application
+
+TBD
