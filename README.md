@@ -15,9 +15,9 @@ Celem aplikacji jest pomoc w przejściu z ogólnopolskiego lockdown’u do selek
 
 Aplikacja budowana jest przez społeczność obywateli pod kuratelą Ministerstwa Cyfryzacji, wydawcy aplikacji.
 
-Aplikacja równoważy potrzebę zachowania prywatności obywateli z potrzebą zbierania informacji o tym gdzie przebywały osoby zakażone. 
+Aplikacja równoważy potrzebę zachowania prywatności obywateli z potrzebą zbierania informacji o tym kogo mogły spotkać i zarazić osoby zakażone. 
 
-Aplikacja wymaga podania numeru telefonu osób i potwierdzenia go wiadomością SMS. Numer telefonu wymagany jest po to aby GIS mógł się skontaktować z użytkownikiem, który był narażony na kontakt z osobami chorymi.
+Aplikacja wymaga podania numeru telefonu i potwierdzenia go wiadomością SMS. Numer telefonu wymagany jest po to aby GIS mógł się skontaktować z użytkownikiem, który był narażony na kontakt z osobami chorymi.
 
 Po zainstalowaniu, aplikacja działa w tle i skanuje otoczenie w poszukiwaniu innych telefonów (poprzez technologię Bluetooth) na których zainstalowana jest aplikacja i zapisuje historię spotykanych urządzeń. 
 
@@ -30,7 +30,7 @@ Dane trafiają na serwer gdzie administrator na podstawie ich analizy decyduje, 
 Każdy użytkownik może po otwarciu aplikacji sprawdzić jakie jest jego spersonalizowany status:
 * Zielony - można swobodnie wychodzić zachowując obowiązujące regulacje
 * Pomarańczowy - nie minęło jeszcze 2 tygodnie od zainstalowanie aplikacji, nie mamy wystarczająco dużo danych aby określić status. Należy zachować ostrożność.
-* Czerwony - należy poddać się domowej kwarantannie i skontaktować z GIS
+* Czerwony - należy skontaktować się z GIS i poddać domowej kwarantannie
 
 Aplikacja docelowo powinna być zainstalowana przez każdego obywatela. Rozpoczynamy budowę kultury używania aplikacji np. poprzez pokazywanie sobie nawzajem swojego zielonego statusu, obok podania ręki.
 
