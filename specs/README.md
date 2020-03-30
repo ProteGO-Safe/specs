@@ -61,7 +61,7 @@ Aplikacja działa w tle i na bieżąco zapisuje informacje o wykrytych urządzen
 
 Użytkownik może otworzyć okno O Aplikacji. Znajdzie tam następujące dane:
 * Logo aplikacji, jej wersję
-* Identyfikator użytkownika (Jest to pierwsza połowa `user_id`, 8 pierwszych bajtów w formacie hex np. `Identyfikator użytkownika: a8098c1af86e11da`)
+* Identyfikator użytkownika (Jest to pierwsza połowa `user_id`, 8 pierwszych bajtów w formacie hex np. `Identyfikator użytkownika: a809-8c1a-f86e-11da`)
 * Liczbę różnych spotkanych użytkowników aplikacji w ciągu ostatnich 2 tyg np. `Wykryłeś 24 identyfikatory aplikacji w ciągu ostatnich 2 tygodni`.
 * Liczbę różnych spotkanych użytkowników aplikacji w ciągu ostatnich 24h np. `Wykryłeś 3 identyfikatory aplikacji w ciągu ostatnich 24 godzin`.
 * Przycisk `Jestem chory. Prześlij dane aby ostrzec innych`, który kieruje do wysyłki danych.
