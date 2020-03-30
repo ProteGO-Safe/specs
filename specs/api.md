@@ -63,7 +63,7 @@ standardowe
 `msisdn` : `string (max 15 cyfr)`
 
 ### Wynik:
-`registration_id` : `uuid`
+`registration_id` : `string`
 
 Serwer zwraca błąd jeśli msisdn nie jest z Polski (nie zaczyna się od 48). 
 Serwer generuje kod rejestracyjny, wysyła go wiadomością SMS na podany numer przez bramkę SMS. Zapamiętuje datę i czas rozpoczęcia procesu rejestracji, numer telefonu i  wysłany kod. Należy zrobić zabezpieczenia przed nadużywaniem serwisu.
@@ -76,7 +76,7 @@ Aplikacja potwierdza rejestrację.
 
 standardowe
 
-`registration_id` : `uuid`
+`registration_id` : `string`
 
 `code` : `string`
 
@@ -86,7 +86,7 @@ standardowe
 
 ### Wynik:
 
-`user_id` : `uuid`
+`user_id` : `string`
 
 `error_msg` : `string`
 
@@ -146,7 +146,7 @@ Wysłanie listy napotkanych urządzeń.
 
 `api_version` : `int`
 
-`user_id` : `uuid`
+`user_id` : `string`
 
 `lang` : `string`
 
@@ -162,7 +162,7 @@ Wysłanie listy napotkanych urządzeń.
 ### `Registrations`
 `registration_date` : `datatime`
 
-`registration_id` : `uuid`
+`registration_id` : `string`
 
 `msisdn` : `string`
 
@@ -174,17 +174,17 @@ Wysłanie listy napotkanych urządzeń.
 
 ### `Beacons`
 
-`user_id` : `uuid`
+`user_id` : `string`
 
-`beacon_id` : `uuid`
+`beacon_id` : `string`
 
 `date` : `string w formacie YYYYmmddhh w czasie CET`
 
 ### `Encounters`
 
-`user_id` : `uuid`
+`user_id` : `string`
 
-`beacon_id` : `uuid`
+`beacon_id` : `string`
 
 `encounter_date` : `datetime`
 
