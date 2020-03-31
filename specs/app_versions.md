@@ -13,16 +13,20 @@ Utrzymujemy trzy środowiska pracy nad aplikacją:
 Nowe wersje do testowania budowane są przez programistów i testowane lokalnie lub budowane przez CI i dystrybuowane do testerów przy pomocy [Shuttle](https://www.polidea.com/blog/our-app-distribution-tool-open-sourced-shuttle-case-study/).
 
 Wersje `dev` zawierają w sobie następujące narzędzia i biblioteki:
-* BugFender - Menu deweloperskie
-* Crashlytics
+* Menu deweloperskie dostępne po potrząśnięciu telefonem ([SwiftTweaks](https://github.com/Khan/SwiftTweaks)),
+* Integrację z serwisem Firebase Crashlytics,
+* Integrację z serwisem Bugfender
+* Szczegółowe logi na konsolę
 
 #### Android
 
 Nowe wersje do testowania budowane są przez programistów i testowane lokalnie lub budowane przez CI i dystrybuowane do testerów przy pomocy [Shuttle](https://www.polidea.com/blog/our-app-distribution-tool-open-sourced-shuttle-case-study/).
 
 Wersje `dev` zawierają w sobie następujące narzędzia i biblioteki:
-* BugFender - Menu deweloperskie
-* Crashlytics
+* Menu deweloperskie dostępne po potrząśnięciu telefonem ([Cockpit](https://www.polidea.com/blog/cockpit-22new-features-of-android-debug-menu/)),
+* Integrację z serwisem Firebase Crashlytics,
+* Integrację z serwisem Bugfender
+* Szczegółowe logi na konsolę
 
 #### Backend
 
@@ -32,7 +36,7 @@ TBD
 
 ### `Stg` - środowisko przedprodukcyjne
 
-Środowisko przedprodukcyjne do testowanie wersji przed publikacją.
+Środowisko przedprodukcyjne do testowania wersji przed publikacją.
 
 #### iOS
 
@@ -52,7 +56,7 @@ Wersje `stg` łączą się z serwerem pod adresem:
 
 TBD
 
-### `Pro` - środowisko produkcyjne
+### `Prod` - środowisko produkcyjne
 
 Środowisko produkcyjne.
 
@@ -79,7 +83,9 @@ TBD
 Dla iOS i Android obowiązuje wersjonowanie w postaci: `X.Y.Z` gdzie:
 * `X` - główny numer wersji
 * `Y` - mniejszy numer wersji
-* `Z` - kolejny numer budowy (ang. build) aplikacji. Ustawiany jako `tag` w repozytorium. Będzie różny dla iOS i Android.
+* `Z` - kolejny numer budowy (ang. build) aplikacji. 
+
+Numer wersji ustawiany jest przez programistów jako `tag` w repozytorium. Ustawienie `tag` wywołuje budowę projektu. Tagi i wersje mogą być różne dla iOS i Android.
 
 Pierwsza wersja w sklepie może mieć więc numer np. `1.0.127` a kolejna `1.1.234`.
 
