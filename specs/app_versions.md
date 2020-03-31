@@ -32,7 +32,7 @@ Wersje `dev` zawierają w sobie następujące narzędzia i biblioteki:
 
 Wersje `dev` łączą się z serwerem pod adresem:
 
-TBD
+https://europe-west3-protego-dev.cloudfunctions.net/
 
 ### `Stg` - środowisko przedprodukcyjne
 
