@@ -136,6 +136,7 @@ standardowe
 
 `signal_strength` - `siła sygnału przy napotkaniu urządzenia`
 
+Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 
 # Dane przechowywane na serwerze
 
