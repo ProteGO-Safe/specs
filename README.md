@@ -1,4 +1,4 @@
-# Aplikacja NAZWA
+# Aplikacja ProteGO
 
 For short english introduction click [here](ENGLISH.md)
 
