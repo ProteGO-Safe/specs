@@ -118,17 +118,24 @@ Serwer zwraca identyfikatory którymi ma się rozgłaszać w określonych dniach
 
 ## Funkcja `/send_encounters`
 
-Wysłanie listy napotkanych urządzeń.
+Wysłanie listy napotkanych urządzeń na serwer.
 
 ### Parametry:
+standardowe
+
 `proof` : `string`
+
 `encounters` : `[{“encounters_date”: datetime, “beacon_id”, “signal_strength”}, …]`
 
-`proof` - `wynik skanowania QR code TBD`
 `encounters` - `lista napotkanych urządzeń`
+
+
 `encounter_date` - `data i godzina spotkania`
+
 `beacon_id` - `id napotkanego urządzenia`
+
 `signal_strength` - `siła sygnału przy napotkaniu urządzenia`
+
 
 # Dane przechowywane na serwerze
 
