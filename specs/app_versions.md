@@ -54,7 +54,7 @@ Wersje `stg` nie zawierają żadnych zewnętrznych bibliotek.
 
 Wersje `stg` łączą się z serwerem pod adresem:
 
-TBD
+https://europe-west3-protego-stag.cloudfunctions.net/
 
 ### `Prod` - środowisko produkcyjne
 
