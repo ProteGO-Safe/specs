@@ -114,7 +114,7 @@ standardowe
 
 Serwer zwraca status użytkownika: `"greeen"`, `"orange"` lub `"red"`.  Jeśli nie minęło 14 dni od zainstalowania aplikacji, status jest pomarańczowy (`"orange"`).
 
-Serwer zwraca identyfikatory którymi ma się rozgłaszać w określonych dniach i godzinach na 7 dni do przodu. Każdy `beacon_id` to identyfikator do rozgłaszania. Każdy `date` to data i godzina w formacie `YYYYmmddHH` określająca którym  identyfikatorem `beacon_id` powinien rozgłaszać się telefon w dniu i godzinie określonej przez `date`. Serwer zwraca tylko nowe identyfikatory biorąc pod uwagę `last_beacon_date`
+Serwer zwraca identyfikatory którymi ma się rozgłaszać w określonych dniach i godzinach na 21 dni do przodu. Każdy `beacon_id` to identyfikator do rozgłaszania. Każdy `date` to data i godzina w formacie `YYYYmmddHH` określająca którym  identyfikatorem `beacon_id` powinien rozgłaszać się telefon w dniu i godzinie określonej przez `date`. Serwer zwraca tylko nowe identyfikatory biorąc pod uwagę `last_beacon_date`. Serwer może nie zwrócić żadnych `beacon_ids` jeśli uzna, że aplikacja ma ich wystarczająco dużo.
 
 ## Funkcja `/send_encounters`
 
