@@ -8,7 +8,7 @@ Każda osoba instalująca aplikację
 
 **Lekarz**
 
-Lekarz, diagnostyk lub pracownik GIS, który przekazuje informację Użytkownikowi o tym, że zdiagnozowano u niego SARS-CoV-2 i inicjuje przekazanie danych o dwutygodniowej historii spotkanych osób na serwer centralny.
+Lekarz, diagnostyk lub pracownik GIS, który przekazuje informację Użytkownikowi o tym, że zdiagnozowano u niego SARS-CoV-2 i instruuje jak przekazać dane o dwutygodniowej historii spotkanych osób na serwer centralny.
 
 **Administrator**
 
@@ -31,10 +31,9 @@ Po uruchomieniu, aplikacja sprawdza czy zainstalowana wersja jest najnowsza i w 
 W przypadku kiedy aplikacja uruchamiana jest po raz pierwszy (nie mamy `user_id`), następuje rejestracja aplikacji. Użytkownikowi pokazywane są ekrany startowe:
 
 * Powitanie w aplikacji
-* Akceptacja regulaminu. Regulamin jako link otwierany w przeglądarce.
 * Wyjaśnienie jak działa aplikacja (może być kilka ekranów)
 * Prośba o włączenie Bluetooth. Aplikacja nie przechodzi dalej bez włączenia Bluetooth (chyba że nie da się skutecznie sprawdzić stanu Bluetooth, wtedy przechodzi).
-* Prośba o podanie numeru telefonu. Na stałe umieszczony jest przedrostek +48.
+* Prośba o podanie numeru telefonu. Na stałe umieszczony jest przedrostek +48. Informacja o tym, że rejestrując się ackeptuje się regulamin
 * Po potwierdzeniu, użytkownik otrzymuje wiadomość SMS na podany numer i wpisuje 6-cyfrowy kod z wiadomości.
 
 ### Kolejne uruchomienie
@@ -62,26 +61,10 @@ Aplikacja działa w tle i na bieżąco zapisuje informacje o wykrytych urządzen
 Użytkownik może otworzyć okno O Aplikacji. Znajdzie tam następujące dane:
 * Logo aplikacji, jej wersję
 * Identyfikator użytkownika (Jest to pierwsza połowa `user_id`, 8 pierwszych bajtów w formacie hex np. `Identyfikator użytkownika: a809-8c1a-f86e-11da`)
-* Liczbę różnych spotkanych użytkowników aplikacji w ciągu ostatnich 2 tyg np. `Wykryłeś 24 identyfikatory aplikacji w ciągu ostatnich 2 tygodni`.
-* Liczbę różnych spotkanych użytkowników aplikacji w ciągu ostatnich 24h np. `Wykryłeś 3 identyfikatory aplikacji w ciągu ostatnich 24 godzin`.
-* Przycisk `Jestem chory. Prześlij dane aby ostrzec innych`, który kieruje do wysyłki danych.
-* Przycisk `Zgłoś błąd` -> kieruje do https://github.com/anna-app/specs/blob/master/CONTRIBUTING.md
-* Przycisk wyślij do nas e-mail.
-* Gdzieś małym drukiem przycisk `Pokaż licencje używanych komponentów`
+* Przycisk `Wyślij dane`, który kieruje do wysyłki danych.
 
-### Wysyłanie danych na serwer
+[Wysyłanie danych na serwer](data_sharing.md)
 
-W przypadku zdiagnozowania u użytkownika zakażenia SARS-CoV-2, lekarz prosi użytkownika o otwarcie aplikacji i zeskanownie kodu QR identyfikującego lekarza. Następnie urządzenie prosi o wprowadzenie identyfikatora pacjenta lub badania i historia spotkanych urządzeń jest wysyłana na serwer.
-Aplikacja nie zapamiętuje tego, że Użytkownik wysyłał dane. Działa dalej tak jak poprzednio.
-
-### Kody QR dla lekarzy
-Administrator systemu generuje kody QR i przesyła je w postaci plików pdf do wydruku do lekarzy wraz z instrukcją jak przesyłać dane z aplikacji na serwer.
-
-### Administracja
-
-Administrator systemu otrzymuje informacje o tym, że Użytkownik przesłał dane dotyczące napotkanych urządzeń. Weryfikuje zgodność danych (nr telefonu i id pacjenta) z rejestrami medycznymi. Oznacza Użytkownika jako chorego.
-
-Administrator otrzymuje informacje o nr telefonów użytkowników z którym mógł spotkać się chory i dacie spotkania. Manualnie zatwierdza zmianę ich statusu w aplikacji. Przekazuje numery telefonu do GIS.
 
 
 
