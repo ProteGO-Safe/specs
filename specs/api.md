@@ -60,10 +60,15 @@ Aplikacja rejestruje nowe urządzenie
 ### Parametry:
 standardowe
 
-`msisdn` : `string (max 15 cyfr)`
+`msisdn` : `string`  przedrostek `+48` + 9 cyfr
+
+`send_sms` : `bool` pozwala zwrócić kod weryfikacyjny w odpowiedzi zamiast wysyłać sms. 
+Działa tylko w środowisku deweloperskim. 
 
 ### Wynik:
 `registration_id` : `string`
+
+`code` : `string` opcjonalnie, jeśli podano `send_sms: False` Działa tylko w środowisku deweloperskim. 
 
 Serwer zwraca błąd jeśli msisdn nie jest z Polski (nie zaczyna się od 48). 
 Serwer generuje kod rejestracyjny, wysyła go wiadomością SMS na podany numer przez bramkę SMS. Zapamiętuje datę i czas rozpoczęcia procesu rejestracji, numer telefonu i  wysłany kod. Należy zrobić zabezpieczenia przed nadużywaniem serwisu.
