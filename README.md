@@ -23,9 +23,9 @@ Po zainstalowaniu, aplikacja działa w tle i skanuje otoczenie w poszukiwaniu in
 
 Dane te przechowywane są wyłącznie na urządzeniach obywateli i nie są przesyłane na żaden serwer centralny.
 
-Dane wysyłane są na serwer dopiero w sytuacji w której u użytkownika aplikacji zdiagnozowano wirusa. W takim wypadku pracownik służby zdrowia potwierdzający zakażenie, instruuje pacjenta w jaki sposób wysłać dane z telefonu na serwer.
+Dane wysyłane są na serwer dopiero w sytuacji w której u użytkownika aplikacji zdiagnozowano wirusa. W takim wypadku GIS instruuje pacjenta w jaki sposób wysłać dane z telefonu na serwer.
 
-Dane trafiają na serwer gdzie administrator na podstawie ich analizy decyduje, które z osób z którymi spotykał się chory powinny poddać się kwarantannie domowej.
+Dane trafiają na serwer gdzie administrator na podstawie ich analizy (długości, częstości, bliskości zgodnie ze standarami WHO) decyduje, które z osób z którymi spotykał się chory powinny poddać się kwarantannie domowej.
 
 Każdy użytkownik może po otwarciu aplikacji sprawdzić jakie jest jego spersonalizowany status:
 * Zielony - można swobodnie wychodzić zachowując obowiązujące regulacje
