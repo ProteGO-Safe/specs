@@ -128,8 +128,6 @@ Wysłanie listy napotkanych urządzeń na serwer.
 ### Parametry:
 standardowe
 
-`proof` : `string`
-
 `encounters` : `[{“encounters_date”: datetime, “beacon_id”, “signal_strength”}, …]`
 
 `encounters` - `lista napotkanych urządzeń`
@@ -183,6 +181,15 @@ Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 
 `is_expired` : `bool`
 
+
+### `Encounter Uploads`
+
+`upload_id` : `string`
+
+`user_id` : `string`
+
+`date` : `datatime`
+
 ## GCP BigQuery
 
 ### `Beacons`
@@ -194,6 +201,8 @@ Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 `date` : `string w formacie YYYYmmddhh w czasie CET`
 
 ### `Encounters`
+
+`upload_id` : `string`
 
 `user_id` : `string`
 
