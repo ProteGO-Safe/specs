@@ -27,7 +27,7 @@ Dane wysyłane są na serwer dopiero w sytuacji w której u użytkownika aplikac
 
 Dane trafiają na serwer gdzie administrator na podstawie ich analizy (długości, częstości, bliskości zgodnie ze standarami WHO) decyduje, które z osób z którymi spotykał się chory powinny poddać się kwarantannie domowej.
 
-Każdy użytkownik może po otwarciu aplikacji sprawdzić jakie jest jego spersonalizowany status:
+Każdy użytkownik może po otwarciu aplikacji sprawdzić jaki jest jego spersonalizowany status:
 * Zielony - można swobodnie wychodzić zachowując obowiązujące regulacje
 * Pomarańczowy - nie minęło jeszcze 2 tygodnie od zainstalowanie aplikacji, nie mamy wystarczająco dużo danych aby określić status. Należy zachować ostrożność.
 * Czerwony - należy skontaktować się z GIS i poddać domowej kwarantannie
