@@ -190,6 +190,10 @@ Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 
 `date` : `datatime`
 
+`processed_by_gis` : `bool`
+
+`confirmed_by_gis` : `bool`
+
 ## GCP BigQuery
 
 ### `Beacons`
