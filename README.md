@@ -23,13 +23,13 @@ Po zainstalowaniu, aplikacja działa w tle i skanuje otoczenie w poszukiwaniu in
 
 Dane te przechowywane są wyłącznie na urządzeniach obywateli i nie są przesyłane na żaden serwer centralny.
 
-Dane wysyłane są na serwer dopiero w sytuacji w której u użytkownika aplikacji zdiagnozowano wirusa. W takim wypadku GIS instruuje pacjenta w jaki sposób wysłać dane z telefonu na serwer.
+Dane wysyłane są do serwera dopiero w sytuacji w której u użytkownika aplikacji zdiagnozowano wirusa. W takim wypadku GIS instruuje pacjenta w jaki sposób wysłać dane z telefonu na serwer.
 
 Dane trafiają na serwer gdzie administrator na podstawie ich analizy (długości, częstości, bliskości zgodnie ze standarami WHO) decyduje, które z osób z którymi spotykał się chory powinny poddać się kwarantannie domowej.
 
 Każdy użytkownik może po otwarciu aplikacji sprawdzić jakie jest jego spersonalizowany status:
-* Zielony - można swobodnie wychodzić zachowując obowiązujące regulacje
-* Pomarańczowy - nie minęło jeszcze 2 tygodnie od zainstalowanie aplikacji, nie mamy wystarczająco dużo danych aby określić status. Należy zachować ostrożność.
+* Zielony - można swobodnie wychodzić, zachowując obowiązujące regulacje
+* Pomarańczowy - nie minęły jeszcze 2 tygodnie od zainstalowania aplikacji, nie mamy wystarczająco dużo danych aby określić status. Należy zachować ostrożność.
 * Czerwony - należy skontaktować się z GIS i poddać domowej kwarantannie
 
 Aplikacja docelowo powinna być zainstalowana przez każdego obywatela. Rozpoczynamy budowę kultury używania aplikacji np. poprzez pokazywanie sobie nawzajem swojego zielonego statusu, obok podania ręki.
