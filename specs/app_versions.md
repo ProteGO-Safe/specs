@@ -46,7 +46,7 @@ Wersje `stg` nie zawierają żadnych zewnętrznych bibliotek.
 
 #### Android
 
-Nowe wersje do testowania budowane są przez CI i dystrybuowane do testerów przy pomocy TBD.
+Nowe wersje do testowania budowane są przez CI i dystrybuowane do testerów przy pomocy Google Play.
 
 Wersje `stg` nie zawierają żadnych zewnętrznych bibliotek.
 
@@ -68,7 +68,7 @@ Wersje `prod` nie zawierają żadnych zewnętrznych bibliotek.
 
 #### Android
 
-Nowe wersje do testowania budowane są przez CI i dystrybuowane do testerów przy pomocy TBD.
+Nowe wersje do testowania budowane są przez CI i dystrybuowane do testerów przy pomocy Google Play.
 
 Wersje `prod` nie zawierają żadnych zewnętrznych bibliotek.
 
