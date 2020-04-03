@@ -1,6 +1,6 @@
 # Beta testy aplikacji
 
-Testy aplikacji ProteGO odbywają się na [środowisku przedprodukcyjnym](https://github.com/ProteGO-app/specs/blob/testy_alfa_stag/specs/app_versions.md) w wersji aplikacji `stg`.
+Testy aplikacji ProteGO odbywają się na [środowisku przedprodukcyjnym](app_versions.md#stg---%C5%9Brodowisko-przedprodukcyjne) w wersji aplikacji `stg`.
 
 Uczestnicząc w testach odgrywasz bardzo ważną rolę w rozwoju aplikacji ProteGO. Dzięki Twojemu udziałowi w testowaniu aplikacja stanie się jeszcze lepsza. Dlatego prosimy o udział w testach osoby, które w realny i zaangażowany sposób będą używać aplikacji i publikować zgłoszenia błędów.
 
@@ -19,7 +19,7 @@ Do testów aplikacji używamy oficjalnego programu dystrybucyjnego Google Play B
 
 ### iOS
 
-Do testów aplikacji używamy oficjalnego  programu dystrybucyjnego TestFlight. Wymagana jest instalacja aplikacji TestFlight dostępnej w sklepie App Store. Po zapisaniu się do testów otrzymasz email z instrukcjami.
+Do testów aplikacji używamy oficjalnego  programu dystrybucyjnego TestFlight. Wymagana jest instalacja [aplikacji TestFlight dostępnej w sklepie App Store](https://apps.apple.com/us/app/testflight/id899247664). Po zapisaniu się do testów otrzymasz email z instrukcjami jak zainstalować aplikację.
 
 ### Zgłoszenia błędów podczas testów
 
