@@ -1,4 +1,4 @@
-# Podstawowy opis aplikacji Anna
+# Podstawowy opis aplikacji ProteGO
 
 ## Rodzaje użytkowników
 
