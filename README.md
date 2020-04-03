@@ -32,6 +32,6 @@ Każdy użytkownik może po otwarciu aplikacji sprawdzić jakie jest jego sperso
 * Pomarańczowy - nie minęło jeszcze 2 tygodnie od zainstalowanie aplikacji, nie mamy wystarczająco dużo danych aby określić status. Należy zachować ostrożność.
 * Czerwony - należy skontaktować się z GIS i poddać domowej kwarantannie
 
-Aplikacja docelowo powinna być zainstalowana przez każdego obywatela. Rozpoczynamy budowę kultury używania aplikacji np. poprzez pokazywanie sobie nawzajem swojego zielonego statusu, obok podania ręki.
+Aplikacja docelowo powinna być zainstalowana przez każdego obywatela. Rozpoczynamy budowę kultury używania aplikacji np. poprzez pokazywanie sobie nawzajem swojego zielonego statusu podczas powitania.
 
 Ze względu na zrozumiały opór społeczny przed permanentną inwigilacją obywateli, kładziemy duży nacisk na zadbanie o ochronę prywatności. Kod aplikacji jest upubliczniony (open source) i może być zaudytowany przez ekspertów.
