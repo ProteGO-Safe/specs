@@ -190,6 +190,10 @@ Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 
 `date` : `datatime`
 
+`processed_by_health_authority` : `bool`
+
+`confirmed_by_health_authority` : `bool`
+
 ## GCP BigQuery
 
 ### `Beacons`
