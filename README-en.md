@@ -9,7 +9,7 @@ For version in Polish click [here](README.md)
 3. TBD: [FAQ] (FAQ-en.md)
 4. TBD: [I'd like to contribute, report a bug, have an idea - unfortunately, still in Polish; please feel free to use the standard methods of communication on GitHub, the team is bilingual] (CONTRIBTUING-en.md)
 
-## introduction
+## Introduction
 
 The purpose of the application is to help move from a nationwide to a selective quarantine of people who may have been exposed to the risk of SARS-CoV-2 infection by enabling contact tracing.
 
