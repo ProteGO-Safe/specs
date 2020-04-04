@@ -1,8 +1,8 @@
-# Server API Specification/Documentation
+# Server API Specification
 
 ## API Format
 
-API endpoints are invoked with an HTTP/HTTPS? POST request with the parameters in a JSON body. Each of them returns a JSON response.
+API endpoints are invoked with a POST request with the parameters in a JSON body. Each of them returns a JSON response.
 
 ## Common parameters
 The following parameters are included in every single request:
