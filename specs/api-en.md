@@ -21,78 +21,83 @@ The following parameters are included in every single request:
 
 `lang` : `string`
 
-Objaśnienie:
+Description of parameters:
 
-`platform` - identyfikator platformy. Aktualnie `“android”` lub `“ios”`
+`platform` - platform identifier. Currently one of `“android”` and `“ios”`
 
-`os_version` - wersja systemu operacyjnego platformy
+`os_version` - operating system version
 
-`device_type` - typ urządzenia (np. `"iPhone X"` lub `"Android Galaxy"`)
+`device_type` - device type (e.g. `"iPhone X"` or `"Android Galaxy"`)
 
-`app_version` - numer wersji zainstalowanej aplikacji
+`app_version` - currently installed app version
 
-`api_version`  - wersja API którą wspiera aplikacja (domyślnie 1)
+`api_version`  - API version supported by the application (by default 1)
 
-`user_id` - identyfikator użytkownika przyznany przez serwer. Może być pusty jeśli użytkownik nie jest jeszcze zarejestrowany.
+`user_id` - user identifier assigned by server. Can be empty before registering the user
 
-`lang` - dwuliterowy identyfikator języka  telefonu
+`lang` - two-letter code for the language of the phone
 
-## Funkcja `/check_version`
+## `/check_version`
 
-Aplikacja sprawdza czy do poprawnego jej działania jest wymagana aktualizacja aplikacji.
+Checks if and update is needed for the application to work correctly
 
-### Parametry:
-standardowe
+### Request parameters:
+Common parameters
 
-### Wynik:
+### Response:
 
 `upgrade_required` : `bool`
 
 `upgrade_url` : `string`
 
-Jeśli `upgrade_required` jest `true` to aplikacja informuje użytkownika, że do dalszego działania musi zainstalować nowszą wersję. `upgrade_url` zawiera w takiim wypadku `url` do odpowiedniego App Store do którego należy przekierować użytkownika. Jeśli `upgrade_required` jest `false`, aplikacja zostaje uruchomiona.
+If `upgrade_required` is `true`, the application informs the user that to keep using the application they need to download a newer version of the application. In that case, `upgrade_url` contains a link to appropriate App Store where the user should be redirected.
+In case `upgrade_required` is `false`, the application is started.
 
-## Funkcja `/register`
+## `/register`
 
-Aplikacja rejestruje nowe urządzenie
+A new device is registered in the application.
 
-### Parametry:
-standardowe
+### Request parameters:
+Common parameters and the following:
 
-`msisdn` : `string`  przedrostek `+48` + 9 cyfr
+`msisdn` : `string`  prefix `+48` + 9 digits
 
-`send_sms` : `bool` pozwala zwrócić kod weryfikacyjny w odpowiedzi zamiast wysyłać sms.
-Działa tylko w środowisku deweloperskim.
+`send_sms` : `bool` allows to obtains the verification code in the response. Available only in the development environment.
 
-### Wynik:
+### Response:
 `registration_id` : `string`
 
-`code` : `string` opcjonalnie, jeśli podano `send_sms: False` Działa tylko w środowisku deweloperskim.
+`code` : `string` optional, when requested `send_sms: False` Available only in the development environment.
 
-Serwer zwraca błąd jeśli msisdn nie jest z Polski (nie zaczyna się od 48).
-Serwer generuje kod rejestracyjny, wysyła go wiadomością SMS na podany numer przez bramkę SMS. Zapamiętuje datę i czas rozpoczęcia procesu rejestracji, numer telefonu i  wysłany kod. Należy zrobić zabezpieczenia przed nadużywaniem serwisu.
+Server returns an error if `msisdn` is not from Poland (i.e. it doesn't start with `+48`).
+A verification code is generated and sent to the phone number provided with an SMS.
+Following data is stored:
+- timestamp of the moment when the registration is started
+- the telephone number
+- verification code sent
+There should be restrictions that limit abuse of this service.
 
-### Funkcja `/confirm_registration`
+### `/confirm_registration`
 
-Aplikacja potwierdza rejestrację.
+Application confirms the registration.
 
-### Parametry:
-
-standardowe
+### Request parameters:
+Common parameters and the following:
 
 `registration_id` : `string`
 
 `code` : `string`
 
-`registration_id` - identyfikator rejestracji zwrócony przez `/register`
+`registration_id` - registration identifier returned by `/register`
 
-`code` - kod SMS odebrany przez użytkownika
+`code` - the verification code obtained by the user
 
-### Wynik:
+### Response:
 
 `user_id` : `string`
 
 `error_msg` : `string`
+
 
 Serwer sprawdza czy istnieje bieżąca rejestracja zgodna z parametrami. Jeśli tak, rejestruje użytkownika, zapisuje i zwraca `user_id`. Jeśli nie, zwraca `error_msg`.
 
