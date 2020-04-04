@@ -13,17 +13,19 @@ For short english introduction click [here](ENGLISH.md)
 
 Celem aplikacji jest pomoc w przejściu z ogólnopolskiego lockdown’u do selektywnej kwarantanny osób, które mogły być narażone były na ryzyko zakażenia SARS-CoV-2.
 
-Aplikacja budowana jest przez społeczność obywateli pod kuratelą Ministerstwa Cyfryzacji, wydawcy aplikacji.
+Aplikacja budowana jest przez firmę Polidea i społeczność pod kuratelą Ministerstwa Cyfryzacji, wydawcy aplikacji.
 
-Aplikacja równoważy potrzebę zachowania prywatności obywateli z potrzebą zbierania informacji o tym kogo mogły spotkać i zarazić osoby zakażone. 
+Aplikacja służy do zbierania informacji o tym kogo mogły spotkać i zarazić osoby zakażone. 
 
-Aplikacja wymaga podania numeru telefonu i potwierdzenia go wiadomością SMS. Numer telefonu wymagany jest po to aby GIS mógł się skontaktować z użytkownikiem, który był narażony na kontakt z osobami chorymi.
+Aplikacja wymaga podania numeru telefonu i potwierdzenia go wiadomością SMS. Numer telefonu wymagany jest po to aby GIS mógł się skontaktować z użytkownikiem, który był narażony na kontakt z osobami chorymi, oraz w celu jednoznacznej identyfikacji użytkowników po stronie serwera.
 
 Po zainstalowaniu, aplikacja działa w tle i skanuje otoczenie w poszukiwaniu innych telefonów (poprzez technologię Bluetooth) na których zainstalowana jest aplikacja i zapisuje historię spotykanych urządzeń. 
 
-Dane te przechowywane są wyłącznie na urządzeniach obywateli i nie są przesyłane na żaden serwer centralny.
+Aplikacja cyklicznie odpytuje serwer, przesyłając swój unikalny identyfikator oraz dane identyfikujące telefon. Dane te przechowywane są na centralnym serwerze.
 
-Dane wysyłane są na serwer dopiero w sytuacji w której u użytkownika aplikacji zdiagnozowano wirusa. W takim wypadku GIS instruuje pacjenta w jaki sposób wysłać dane z telefonu na serwer.
+Dane dotyczące spotkań z innymi użytkownikami przechowywane są wyłącznie na urządzeniach obywateli i nie są przesyłane na serwer centralny, jeżeli użytkownik jest zdrowy.
+
+Dane te wysyłane są na serwer dopiero w sytuacji w której u użytkownika aplikacji zdiagnozowano wirusa. W takim wypadku GIS instruuje pacjenta w jaki sposób wysłać dane z telefonu na serwer.
 
 Dane trafiają na serwer gdzie administrator na podstawie ich analizy (długości, częstości, bliskości zgodnie ze standarami WHO) decyduje, które z osób z którymi spotykał się chory powinny poddać się kwarantannie domowej.
 
