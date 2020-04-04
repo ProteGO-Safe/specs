@@ -39,7 +39,7 @@ Description of parameters:
 
 ## `/check_version`
 
-Check if and update is needed for the application to work correctly
+Check if an update is needed for the application to work correctly
 
 ### Request parameters:
 Common parameters
