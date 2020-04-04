@@ -1,6 +1,6 @@
-# ProteGO applicable
+# ProteGO application
 
-For Polish version click [here] (README.md)
+For version in Polish click [here](README.md)
 
 ## Table of Contents
 
