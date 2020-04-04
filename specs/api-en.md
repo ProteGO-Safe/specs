@@ -77,7 +77,7 @@ Following data is stored:
 - verification code sent
 There should be restrictions that limit abuse of this service.
 
-### `/confirm_registration`
+## `/confirm_registration`
 
 Application confirms the registration.
 
