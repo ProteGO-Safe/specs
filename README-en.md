@@ -7,7 +7,7 @@ For Polish version click [here] (README.md)
 1. [Introduction](#introduction)
 2. [How does the app work?](specs/README-en.md)
 3. TBD: [FAQ] (FAQ-en.md)
-4. TBD: [I'd like to contribute, report a bug, have an idea] (CONTRIBTUING-en.md)
+4. TBD: [I'd like to contribute, report a bug, have an idea - unfortunately, still in Polish; please feel free to use the standard methods of communication on GitHub, the team is bilingual] (CONTRIBTUING-en.md)
 
 ## introduction
 
