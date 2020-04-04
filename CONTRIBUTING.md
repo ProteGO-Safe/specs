@@ -11,7 +11,7 @@ Zapraszamy wszystkich do współpracy nad projektem:
 
 ## Chcę zgłosić błąd w działaniu aplikacji
 
-Używamy `GitHub issues` do śledzenia postępów i błędów. Wypełnij formularz błędu w [aplikacji iOS](https://github.com/anna-app/ios/issues/new?assignees=&labels=&template=bug_report.md&title=), w [aplikacji Android](https://github.com/anna-app/android/issues/new?assignees=&labels=&template=bug_report.md&title=) lub [na serwerze](https://github.com/anna-app/backend/issues/new?assignees=&labels=&template=bug_report.md&title=). Pamiętaj o podaniu wszystkich wymaganych informacji. Zanim zgłosisz coś nowego, sprawdź czy nie ma już wcześniejszego podobnego zgłoszenia.
+Używamy `GitHub issues` do śledzenia postępów i błędów. Wypełnij formularz błędu w [aplikacji iOS](https://github.com/ProteGO-app/ios/issues/new?assignees=&labels=&template=bug_report.md&title=), w [aplikacji Android](https://github.com/ProteGO-app/android/issues/new?assignees=&labels=&template=bug_report.md&title=) lub [na serwerze](https://github.com/ProteGO-app/backend/issues/new?assignees=&labels=&template=bug_report.md&title=). Pamiętaj o podaniu wszystkich wymaganych informacji. Zanim zgłosisz coś nowego, sprawdź czy nie ma już wcześniejszego podobnego zgłoszenia.
 
 ## Chcę zgłosić błąd dotyczący bezpieczeństwa
 
@@ -34,7 +34,7 @@ Instrukcja dotycząca tego jak dołączyć do zespołu testerów znajduje się [
 
 ## Chcę zaproponować nową funkcjonalność.
 
-Nowe funkcjonalności planujemy w [GitHub issues](https://github.com/anna-app/specs/issues). Sprawdź wcześniej czy ktoś nie zgłosił czegoś podobnego.
+Nowe funkcjonalności planujemy w [GitHub issues](https://github.com/ProteGO-app/specs/issues). Sprawdź wcześniej czy ktoś nie zgłosił czegoś podobnego.
 
 ## Jak jeszcze mogę pomóc?
 
