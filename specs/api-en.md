@@ -39,7 +39,7 @@ Description of parameters:
 
 ## `/check_version`
 
-Checks if and update is needed for the application to work correctly
+Check if and update is needed for the application to work correctly
 
 ### Request parameters:
 Common parameters
@@ -55,7 +55,7 @@ In case `upgrade_required` is `false`, the application is started.
 
 ## `/register`
 
-A new device is registered in the application.
+Register a new device in the application.
 
 ### Request parameters:
 Common parameters and the following:
@@ -79,7 +79,7 @@ There should be restrictions that limit abuse of this service.
 
 ## `/confirm_registration`
 
-Application confirms the registration.
+Confirm the registration.
 
 ### Request parameters:
 Common parameters and the following:
@@ -141,7 +141,7 @@ Common parameters and the following:
 
 `signal_strength` - `strength of the signal during the encounter`
 
-The server stored the data in the `Encounters` table with the appropriate `user_id`.
+The server stores the data in the `Encounters` table with the appropriate `user_id`.
 
 # Data stored in the server
 
