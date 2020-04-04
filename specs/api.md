@@ -30,7 +30,7 @@ Objaśnienie:
 
 `device_type` - typ urządzenia (np. `"iPhone X"` lub `"Android Galaxy"`)
 
-`app_version` - numer wersji zainstalowanej aplikacji 
+`app_version` - numer wersji zainstalowanej aplikacji
 
 `api_version`  - wersja API którą wspiera aplikacja (domyślnie 1)
 
@@ -62,15 +62,15 @@ standardowe
 
 `msisdn` : `string`  przedrostek `+48` + 9 cyfr
 
-`send_sms` : `bool` pozwala zwrócić kod weryfikacyjny w odpowiedzi zamiast wysyłać sms. 
-Działa tylko w środowisku deweloperskim. 
+`send_sms` : `bool` pozwala zwrócić kod weryfikacyjny w odpowiedzi zamiast wysyłać sms.
+Działa tylko w środowisku deweloperskim.
 
 ### Wynik:
 `registration_id` : `string`
 
-`code` : `string` opcjonalnie, jeśli podano `send_sms: False` Działa tylko w środowisku deweloperskim. 
+`code` : `string` opcjonalnie, jeśli podano `send_sms: False` Działa tylko w środowisku deweloperskim.
 
-Serwer zwraca błąd jeśli msisdn nie jest z Polski (nie zaczyna się od 48). 
+Serwer zwraca błąd jeśli msisdn nie jest z Polski (nie zaczyna się od 48).
 Serwer generuje kod rejestracyjny, wysyła go wiadomością SMS na podany numer przez bramkę SMS. Zapamiętuje datę i czas rozpoczęcia procesu rejestracji, numer telefonu i  wysłany kod. Należy zrobić zabezpieczenia przed nadużywaniem serwisu.
 
 ### Funkcja `/confirm_registration`
@@ -107,7 +107,7 @@ standardowe
 
 `last_beacon_date` : `string`
 
-`last_beacon_date` to data i godzina najstarszego `beacon_id` które jest już przechowywane na urządzeniu.
+`last_beacon_date` to data i godzina najnowszego `beacon_id` które jest już przechowywane na urządzeniu.
 
 ### Wynik:
 
@@ -215,6 +215,3 @@ Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 `encounter_date` : `datetime`
 
 `signal_strength` : `float`
-
-
-

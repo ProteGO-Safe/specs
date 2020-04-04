@@ -109,8 +109,8 @@ Common parameters and the following:
 
 `last_beacon_date` : `string`
 
-`last_beacon_date` is the date and time of the oldest `beacon_id` that is already stored on the device.
-//HELP needed: what format is this? Surely the oldest and not the latest?
+`last_beacon_date` is the date and time of the latest `beacon_id` that is already stored on the device. I.e. the one with the most future `date` associated.
+
 
 ### Response:
 
