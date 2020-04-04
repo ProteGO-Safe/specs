@@ -98,54 +98,53 @@ Common parameters and the following:
 
 `error_msg` : `string`
 
+Server checks if the registration exists. If so, the user is registered and stored and the endpoint returns the `user_id`. If not, `error_msg` is returned.
 
-Serwer sprawdza czy istnieje bieżąca rejestracja zgodna z parametrami. Jeśli tak, rejestruje użytkownika, zapisuje i zwraca `user_id`. Jeśli nie, zwraca `error_msg`.
+## `/get_status`
 
-## Funkcja `/get_status`
+Check your status and obtain `beacon_ids`.
 
-Sprawdzenie swojego statusu i pobranie `beacon_ids`.
-
-### Parametry:
-
-standardowe
+### Request parameters:
+Common parameters and the following:
 
 `last_beacon_date` : `string`
 
-`last_beacon_date` to data i godzina najstarszego `beacon_id` które jest już przechowywane na urządzeniu.
+`last_beacon_date` is the date and time of the oldest `beacon_id` that is already stored on the device.
+//HELP needed: what format is this? Surely the oldest and not the latest?
 
-### Wynik:
+### Response:
 
 `status` : `string`
 
 `beacon_ids` : `[ {“date”: date, “beacon_id”:beacon_id}, ...]`
 
-`date` : `data i godzina w formacie "YYYYmmddHH"`
+`date` : `datetime in the following format - "YYYYmmddHH"`
 
-Serwer zwraca status użytkownika: `"greeen"`, `"orange"` lub `"red"`.  Jeśli nie minęło 14 dni od zainstalowania aplikacji, status jest pomarańczowy (`"orange"`).
+The server returns the user's status: `"green"`, `"orange"` or `"red"`. The status is `"orange"` if 14 days haven't passed since the installation.
 
-Serwer zwraca identyfikatory którymi ma się rozgłaszać w określonych dniach i godzinach na 21 dni do przodu. Każdy `beacon_id` to identyfikator do rozgłaszania. Każdy `date` to data i godzina w formacie `YYYYmmddHH` określająca którym  identyfikatorem `beacon_id` powinien rozgłaszać się telefon w dniu i godzinie określonej przez `date`. Serwer zwraca tylko nowe identyfikatory biorąc pod uwagę `last_beacon_date`. Serwer może nie zwrócić żadnych `beacon_ids` jeśli uzna, że aplikacja ma ich wystarczająco dużo.
+The server returns a list of `beacon_id`s to use for broadcasting at specified times for the following 21 days. Each element of the list has a `beacon_id` to broadcast and a `date` in this format: `YYYYmmddHH`. The server will only return new ids taking into account the `last_beacon_date` passed. There may be no `beacon_ids` returned if the application is deemed to have enough `beacon_ids` stored.
 
-## Funkcja `/send_encounters`
+## `/send_encounters`
 
-Wysłanie listy napotkanych urządzeń na serwer.
+Send a list of encountered devices to the server.
 
-### Parametry:
-standardowe
+### Request parameters:
+Common parameters and the following:
 
 `encounters` : `[{“encounters_date”: datetime, “beacon_id”, “signal_strength”}, …]`
 
-`encounters` - `lista napotkanych urządzeń`
+`encounters` - `a list of encountered devices`
 
 
-`encounter_date` - `data i godzina spotkania`
+`encounter_date` - `date and time of encounter`
 
-`beacon_id` - `id napotkanego urządzenia`
+`beacon_id` - `id of the encountered device`
 
-`signal_strength` - `siła sygnału przy napotkaniu urządzenia`
+`signal_strength` - `strength of the signal during the encounter`
 
-Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
+The server stored the data in the `Encounters` table with the appropriate `user_id`.
 
-# Dane przechowywane na serwerze
+# Data stored in the server
 
 ## GCP Datastore
 
@@ -206,7 +205,7 @@ Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 
 `beacon_id` : `string`
 
-`date` : `string w formacie YYYYmmddhh w czasie CET`
+`date` : `string in format "YYYYmmddhh" in the CET timezone`
 
 ### `Encounters`
 
