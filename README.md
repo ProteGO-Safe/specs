@@ -1,6 +1,6 @@
 # Aplikacja ProteGO
 
-For short english introduction click [here](ENGLISH.md)
+For English version of the introduction click [here](README-en.md)
 
 ## Spis treści
 
@@ -11,17 +11,17 @@ For short english introduction click [here](ENGLISH.md)
 
 ## Wprowadzenie
 
-Celem aplikacji jest pomoc w przejściu z ogólnopolskiego lockdown’u do selektywnej kwarantanny osób, które mogły być narażone były na ryzyko zakażenia SARS-CoV-2.
+Celem aplikacji jest pomoc w przejściu z ogólnopolskiego lockdownu do selektywnej kwarantanny osób, które mogły być narażone były na ryzyko zakażenia SARS-CoV-2.
 
 Aplikacja budowana jest przez społeczność obywateli pod kuratelą Ministerstwa Cyfryzacji, wydawcy aplikacji.
 
-Aplikacja równoważy potrzebę zachowania prywatności obywateli z potrzebą zbierania informacji o tym kogo mogły spotkać i zarazić osoby zakażone. 
+Aplikacja równoważy potrzebę zachowania prywatności obywateli z potrzebą zbierania informacji o tym kogo mogły spotkać i zarazić osoby zakażone.
 
 Aplikacja może być używana anonimowo. W takim wypadku całość komunikacji z użytkownikiem odbywa się przy pomocy aplikacji.  
 
 Opcjonalnie użytkownik może podać swój numeru telefonu i potwierdzić go wiadomością SMS. W takim wypadku numer telefonu może zostać wykorzystany przez GIS do kontaktu z użytkownikiem, który był narażony na kontakt z osobami chorymi.
 
-Po zainstalowaniu, aplikacja działa w tle i skanuje otoczenie w poszukiwaniu innych telefonów (poprzez technologię Bluetooth) na których zainstalowana jest aplikacja i zapisuje historię spotykanych urządzeń. 
+Po zainstalowaniu, aplikacja działa w tle i skanuje otoczenie w poszukiwaniu innych telefonów (poprzez technologię Bluetooth) na których zainstalowana jest aplikacja i zapisuje historię spotykanych urządzeń.
 
 Dane te przechowywane są wyłącznie na urządzeniach obywateli i nie są przesyłane na żaden serwer centralny. Dane usuwane są po 2 tygodniach.
 
