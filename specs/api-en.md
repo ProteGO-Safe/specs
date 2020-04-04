@@ -33,7 +33,7 @@ Description of parameters:
 
 `api_version`  - API version supported by the application (by default 1)
 
-`user_id` - user identifier assigned by server. Can be empty before registering the user
+`user_id` - user identifier assigned by server. Can be empty if user is not yet registered
 
 `lang` - two-letter code for the language of the phone
 
@@ -62,7 +62,7 @@ Common parameters and the following:
 
 `msisdn` : `string`  prefix `+48` + 9 digits
 
-`send_sms` : `bool` allows to obtains the verification code in the response. Available only in the development environment.
+`send_sms` : `bool` allows to obtain the verification code in the response instead of text message. Available only in the development environment.
 
 ### Response:
 `registration_id` : `string`
@@ -109,8 +109,7 @@ Common parameters and the following:
 
 `last_beacon_date` : `string`
 
-`last_beacon_date` is the date and time of the latest `beacon_id` that is already stored on the device. I.e. the one with the most future `date` associated.
-
+`last_beacon_date` is the date and time of the latest `beacon_id` that is already stored on the device.
 
 ### Response:
 
