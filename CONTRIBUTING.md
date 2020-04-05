@@ -34,6 +34,7 @@ Abyśmy mogli akceptować Twoje Pull Request'y zapoznaj się z zasadami poniżej
 3. Dla uniknięcia nieporozumień prosimy każdego twórcę Pull Request'a o potwierdzenie udzielenia licencji na swoje zmiany poprzez:
     * pobranie i wypełnienie [oświadczenia](files/oswiadczenie_licencja_GPL_AGPL.pdf), które:
         * potwierdza udzielenie licencji GPL/AGPL na swoje zmiany
+        * zezwala każdemu kto stosuje się do postanowień licencji na dystrybucję binarnych plików przez App Store firmy Apple
         * zobowiązuje autora zmian do niewykonywania swoich osobistych praw autorskich i do nieodwoływania swojej licencji
     * podpisanie go [podpisem zaufanym](https://www.gov.pl/web/gov/podpisz-dokument-elektronicznie-wykorzystaj-podpis-zaufany), [podpisem osobistym](https://www.gov.pl/web/e-dowod/podpis-osobisty) lub [podpisem kwalifikowanym](https://pl.wikipedia.org/wiki/Podpis_kwalifikowany)
     * przesłanie podpisanego dokumentu na adres [protego@mc.gov.pl](protego@mc.gov.pl). Jako tytuł wiadomości wpisz `Oświadczenie GitHub`. Administratorem Twoich danych osobowych jest Ministerstwo Cyfryzacji.
