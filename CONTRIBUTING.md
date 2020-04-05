@@ -5,9 +5,10 @@ Zapraszamy wszystkich do współpracy nad projektem:
 1. [Chcę zgłosić błąd w działaniu aplikacji.](#Chcę-zgłosić-błąd-w-działaniu-aplikacji)
 2. [Chcę zgłosić błąd dotyczący bezpieczeństwa.](#Chcę-zgłosić-błąd-dotyczący-bezpieczeństwa)
 3. [Programuję, jak mogę pomóc?](#Programuję-jak-mogę-pomóc)
-4. [Chcę pomóc testować nowe wersje aplikacji.](#Chcę-pomóc-testować-nowe-wersje-aplikacji)
-5. [Chcę zaproponować nową funkcjonalność.](#Chcę-zaproponować-nową-funkcjonalność)
-6. [Jak jeszcze mogę pomóc?](#Jak-jeszcze-moge-pomoc)
+4. [Zajmuję się UX/UI, jak mogę pomóc?](#Zajmuję-się-UX-UI-jak-mogę-pomóc)
+5. [Chcę pomóc testować nowe wersje aplikacji.](#Chcę-pomóc-testować-nowe-wersje-aplikacji)
+6. [Chcę zaproponować nową funkcjonalność.](#Chcę-zaproponować-nową-funkcjonalność)
+7. [Jak jeszcze mogę pomóc?](#Jak-jeszcze-moge-pomoc)
 
 ## Chcę zgłosić błąd w działaniu aplikacji
 
@@ -38,6 +39,10 @@ Abyśmy mogli akceptować Twoje Pull Request'y zapoznaj się z zasadami poniżej
     * przesłanie podpisanego dokumentu na adres [protego@mc.gov.pl](protego@mc.gov.pl). Jako tytuł wiadomości wpisz `Oświadczenie GitHub`. Administratorem Twoich danych osobowych jest Ministerstwo Cyfryzacji.
 4. Po podpisaniu i przesłaniu dokumentu, wraz z pierwszym Pull Request'em dodamy Cię do pliku [CONTRIBUTORS.md](CONTRIBUTORS.md). Dzięki temu każdy Twój kolejny Pull Request zostanie zaakceptowany szybciej.
 5. Przyjmujemy Pull Request'y tylko od osób, które przesłały oświadczenie.
+
+## Zajmuję się UX/UI, jak mogę pomóc?
+
+Udostępniamy [pliki źródłowe dotyczące UX i UI](https://drive.google.com/drive/folders/1n2-dFkdkJWnezX3RjN1kaSOzHQiUg4iQ?usp=sharing). Jeśli chcesz coś zaproponować jakieś zmiany zgłoś je [tutaj](https://github.com/ProteGO-app/specs/issues)
 
 ## Chcę pomóc testować nowe wersje aplikacji
 
