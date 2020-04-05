@@ -11,7 +11,7 @@ For short english introduction click [here](ENGLISH.md)
 
 ## Wprowadzenie
 
-Celem aplikacji jest pomoc w przejściu z ogólnopolskiego lockdown’u do selektywnej kwarantanny osób, które mogły być narażone były na ryzyko zakażenia SARS-CoV-2.
+Celem aplikacji jest pomoc w przejściu z ogólnopolskiego lockdown’u do selektywnej kwarantanny osób, które mogły być narażone na ryzyko zakażenia SARS-CoV-2.
 
 Aplikacja budowana jest przez społeczność obywateli pod kuratelą Ministerstwa Cyfryzacji, wydawcy aplikacji.
 
@@ -25,7 +25,7 @@ Dane te przechowywane są wyłącznie na urządzeniach obywateli i nie są przes
 
 Dane wysyłane są na serwer dopiero w sytuacji w której u użytkownika aplikacji zdiagnozowano wirusa. W takim wypadku GIS instruuje pacjenta w jaki sposób wysłać dane z telefonu na serwer.
 
-Dane trafiają na serwer gdzie administrator na podstawie ich analizy (długości, częstości, bliskości zgodnie ze standarami WHO) decyduje, które z osób z którymi spotykał się chory powinny poddać się kwarantannie domowej.
+Dane trafiają na serwer gdzie administrator na podstawie ich analizy (długości, częstości, bliskości zgodnie ze standardami WHO) decyduje, które z osób z którymi spotykał się chory powinny poddać się kwarantannie domowej.
 
 Każdy użytkownik może po otwarciu aplikacji sprawdzić jaki jest jego spersonalizowany status:
 * Zielony - można swobodnie wychodzić zachowując obowiązujące regulacje
