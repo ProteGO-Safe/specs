@@ -3,3 +3,4 @@
 Imię i nazwisko        | GitHub ID                                           | Komponenty
 ---------------------- | --------------------------------------------------- | -----------------------------
 Jakub Lipiński         | [jakublipinski](https://github.com/jakublipinski)   | backend, specs
+Adam Dobrawy           | [ad-m](https://github.com/ad-m)                     | specs
