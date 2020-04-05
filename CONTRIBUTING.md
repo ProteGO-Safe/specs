@@ -5,7 +5,7 @@ Zapraszamy wszystkich do współpracy nad projektem:
 1. [Chcę zgłosić błąd w działaniu aplikacji.](#Chcę-zgłosić-błąd-w-działaniu-aplikacji)
 2. [Chcę zgłosić błąd dotyczący bezpieczeństwa.](#Chcę-zgłosić-błąd-dotyczący-bezpieczeństwa)
 3. [Programuję, jak mogę pomóc?](#Programuję-jak-mogę-pomóc)
-4. [Zajmuję się UX/UI, jak mogę pomóc?](#Zajmuję-się-UX-UI-jak-mogę-pomóc)
+4. [Zajmuję się UX/UI, jak mogę pomóc?](#Zajmuję-się-uxui-jak-mogę-pomóc)
 5. [Chcę pomóc testować nowe wersje aplikacji.](#Chcę-pomóc-testować-nowe-wersje-aplikacji)
 6. [Chcę zaproponować nową funkcjonalność.](#Chcę-zaproponować-nową-funkcjonalność)
 7. [Jak jeszcze mogę pomóc?](#Jak-jeszcze-moge-pomoc)
