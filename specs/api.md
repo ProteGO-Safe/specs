@@ -24,7 +24,7 @@ Każdy wywołanie zawiera zawsze następujące parametry:
 
 Objaśnienie:
 
-`platform` - identyfikator platformy. Aktualnie `“android”` lub `“ios”`
+`platform` - identyfikator platformy. Aktualnie `"android"` lub `"ios"`
 
 `os_version` - wersja systemu operacyjnego platformy
 
@@ -113,7 +113,7 @@ standardowe
 
 `status` : `string`
 
-`beacon_ids` : `[ {“date”: date, “beacon_id”:beacon_id}, ...]`
+`beacon_ids` : `[ {"date": date, "beacon_id":beacon_id}, ...]`
 
 `date` : `data i godzina w formacie "YYYYmmddHH"`
 
@@ -128,7 +128,7 @@ Wysłanie listy napotkanych urządzeń na serwer.
 ### Parametry:
 standardowe
 
-`encounters` : `[{“encounters_date”: datetime, “beacon_id”, “signal_strength”}, …]`
+`encounters` : `[{"encounters_date": datetime, "beacon_id", "signal_strength"}, …]`
 
 `encounters` - `lista napotkanych urządzeń`
 
@@ -215,6 +215,3 @@ Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 `encounter_date` : `datetime`
 
 `signal_strength` : `float`
-
-
-
