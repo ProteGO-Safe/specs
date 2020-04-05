@@ -36,7 +36,7 @@ Abyśmy mogli akceptować Twoje Pull Request'y zapoznaj się z zasadami poniżej
         * zobowiązuje autora zmian do niewykonywania swoich osobistych praw autorskich i do nieodwoływania swojej licencji
     * podpisanie go [podpisem zaufanym](https://www.gov.pl/web/gov/podpisz-dokument-elektronicznie-wykorzystaj-podpis-zaufany), [podpisem osobistym](https://www.gov.pl/web/e-dowod/podpis-osobisty) lub [podpisem kwalifikowanym](https://pl.wikipedia.org/wiki/Podpis_kwalifikowany)
     * przesłanie podpisanego dokumentu na adres [protego@mc.gov.pl](protego@mc.gov.pl). Jako tytuł wiadomości wpisz `Oświadczenie GitHub`. Administratorem Twoich danych osobowych jest Ministerstwo Cyfryzacji.
-4. Po podpisaniu i przesłaniu dokumentu, wraz ze swoim pierwszym Pull Request'em stwórz również Pull Request do pliku [CONTRIBUTORS.md](CONTRIBUTORS.md) i dodaj swoje dane. Dzięki temu każdy Twój kolejny Pull Request zostanie zaakceptowany szybciej.
+4. Po podpisaniu i przesłaniu dokumentu, wraz z pierwszym Pull Request'em dodamy Cię do pliku [CONTRIBUTORS.md](CONTRIBUTORS.md). Dzięki temu każdy Twój kolejny Pull Request zostanie zaakceptowany szybciej.
 5. Przyjmujemy Pull Request'y tylko od osób, które przesłały oświadczenie.
 
 ## Chcę pomóc testować nowe wersje aplikacji
