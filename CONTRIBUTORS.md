@@ -4,5 +4,10 @@ Imię i nazwisko        | GitHub ID                                           | 
 ---------------------- | --------------------------------------------------- | -----------------------------
 Jakub Lipiński         | [jakublipinski](https://github.com/jakublipinski)   | backend, specs
 Adam Dobrawy           | [ad-m](https://github.com/ad-m)                     | specs
-Piotr Kalinowski       | [optimusbits](https://github.com/optimusbits)       | specs   
-Oskar Hinc             | [oskarhinc](https://github.com/oskarhinc).          | specs
+Piotr Kalinowski       | [optimusbits](https://github.com/optimusbits)       | iOS   
+Oskar Hinc             | [oskarhinc](https://github.com/oskarhinc)           | specs
+Maciej Janusz          | [maciekjanusz](https://github.com/maciekjanusz)     | android
+Tobiasz Olejnik        | [tobiaszolejnik](https://github.com/tobiaszolejnik) | android
+Błażej Biesiada        | [bejo](https://github.com/bejo)                     | iOS
+Piotr Szczepaniak      | [D0han](https://github.com/D0han)                   | backend
+Mikołaj Lewandowski    | [mikolevy](https://github.com/mikolevy)             | specs
