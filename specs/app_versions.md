@@ -90,3 +90,7 @@ Numer wersji ustawiany jest przez programistów jako `tag` w repozytorium. Ustaw
 Pierwsza wersja w sklepie może mieć więc numer np. `1.0.127` a kolejna `1.1.234`.
 
 Aplikacje przesyłają do serwera całość `X.Y.Z` jako `app_version`.
+
+Każda wersja budowana jest na postawie `tag`u z GitHub:
+* iOS: https://github.com/ProteGO-app/ios/tags
+* Android: https://github.com/ProteGO-app/android/tags
