@@ -17,13 +17,15 @@ The application is built by the community of citizens in cooperation the Polish 
 
 The application balances the need to preserve the privacy of citizens with the need to collect information about those who could be at risk of being infected.
 
-The application requires a phone number and its confirmation by a text message (SMS). The phone number is required so that Polish health authorities can contact the user who has been nearby people testing positive.
+The application can be used anonymously. In this case, all communication with the user is conducted using the application.
 
-After installing, the app securely connects with other users via Bluetooth. It records a 2 weeks history of all the devices encountered. This data is stored encrypted only on citizens' devices and is not sent to any central server.
+Optionally, the user can enter his phone number and confirm it by a text message (SMS). In this case, the phone number can be used by GIS (the Polish Chief Sanitary Inspectorate, Główny Inspektorat Sanitarny) to contact a user who has been exposed to a contact with person identified as ill.
 
-Data is sent to the server only when the user of the application has been tested positive for coronavirus. In this case, the health authority instructs the patient how to send data from the phone to the server.
+After installing, the app securely connects with other users via Bluetooth. It records a 2 weeks history of all the devices encountered. This data is stored only on citizens' devices and is not sent to any central server. Data is deleted after 2 weeks.
 
-The data is sent to the server where the health authority personnel, based on their analysis (length, frequency, proximity in accordance with WHO standards), decides which people should be subject to home quarantine.
+Each person diagnosed with SARS-CoV-2 is asked to send the history of devices encountered during the previous 14 days to the server.
+
+The data is then sent to a server where the administrator, based on their analysis (length of contact, frequency of contacts, proximity in accordance with WHO standards) decides which of the people he met with should receive information about the potential threat. In the case of people who have not registered using the telephone number, the administrator is not able to know their personal data.
 
 After opening the application, each user can check their personalized status:
 
