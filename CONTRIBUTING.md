@@ -2,13 +2,30 @@
 
 Zapraszamy wszystkich do współpracy nad projektem:
 
-1. [Chcę zgłosić błąd w działaniu aplikacji.](#Chcę-zgłosić-błąd-w-działaniu-aplikacji)
-2. [Chcę zgłosić błąd dotyczący bezpieczeństwa.](#Chcę-zgłosić-błąd-dotyczący-bezpieczeństwa)
-3. [Programuję, jak mogę pomóc?](#Programuję-jak-mogę-pomóc)
-4. [Zajmuję się UX/UI, jak mogę pomóc?](#Zajmuję-się-uxui-jak-mogę-pomóc)
-5. [Chcę pomóc testować nowe wersje aplikacji.](#Chcę-pomóc-testować-nowe-wersje-aplikacji)
-6. [Chcę zaproponować nową funkcjonalność.](#Chcę-zaproponować-nową-funkcjonalność)
-7. [Jak jeszcze mogę pomóc?](#Jak-jeszcze-moge-pomoc)
+1. [Zasady ogólne](Zasady-ogólne)
+2. [Chcę zgłosić błąd w działaniu aplikacji.](#Chcę-zgłosić-błąd-w-działaniu-aplikacji)
+3. [Chcę zgłosić błąd dotyczący bezpieczeństwa.](#Chcę-zgłosić-błąd-dotyczący-bezpieczeństwa)
+4. [Programuję, jak mogę pomóc?](#Programuję-jak-mogę-pomóc)
+5. [Zajmuję się UX/UI, jak mogę pomóc?](#Zajmuję-się-uxui-jak-mogę-pomóc)
+6. [Chcę pomóc testować nowe wersje aplikacji.](#Chcę-pomóc-testować-nowe-wersje-aplikacji)
+7. [Chcę zaproponować nową funkcjonalność.](#Chcę-zaproponować-nową-funkcjonalność)
+8. [Jak jeszcze mogę pomóc?](#Jak-jeszcze-moge-pomoc)
+
+## Zasady ogólne
+
+### Język komunikacji
+
+Komunikujemy się po polsku, ponieważ jednym z głównych celów tego projektu jest zbudowanie zaufania do użytkowników aplikacji ProteGO, którymi będą głównie osoby mówiące po polsku. Wiele tematów które poruszamy na GitHub jest czytelnych dla osób nietechnicznych. Nie chcemy zabierać im możliwości partycypacji. Komunikacja po angielsku jest OK, odpowiadamy wtedy po angielsku. 
+
+Kod i komentarze w kodzie piszemy po angielsku. Commity po polsku lub angielsku.
+
+### Kto podejmuje decyzje w tym projekcie?
+
+ProteGO ma jedynie sens jeśli zostanie stworzone we współpracy z administracją. Potrzebujemy połączenia z zaufanym źródłem informacji dotyczącym tego czy ktoś został zakażony SARS-CoV-2. Taki rejestr jest prowadzony przez stronę rządową. Ministerstwo Cyfryzacji (MC) zdecydowało się wydać i promować tę aplikację. Oznacza to jednak również to, że ostatecznie to MC decyduje o tym czy aplikacja i jej kolejne wersje będą wydane. Potrzebujemy więc współpracy i dialogu, który połączy potrzeby i obawy każdej ze stron. **Aktualnie** łącznikiem między MC i projektem jest [@jakublipinski](https://github.com/jakublipinski).
+
+### Jaki jest "roadmap" projektu?
+
+Poza wydaniem wersji `1.0` opisanej [tutaj](https://github.com/ProteGO-app/specs/blob/master/specs/README.md) nie ma jeszcze decyzji co dalej. Na pewno będziemy chcieli zachęcić użytkowników do częstszego zaglądania do aplikacji? Masz pomysł jak to zrobić - napisz.
 
 ## Chcę zgłosić błąd w działaniu aplikacji
 
