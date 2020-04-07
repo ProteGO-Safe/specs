@@ -33,6 +33,7 @@ W przypadku kiedy aplikacja uruchamiana jest po raz pierwszy (nie mamy `user_id`
 * Powitanie w aplikacji
 * Wyjaśnienie jak działa aplikacja (może być kilka ekranów)
 * Prośba o włączenie Bluetooth. Aplikacja nie przechodzi dalej bez włączenia Bluetooth (chyba że nie da się skutecznie sprawdzić stanu Bluetooth, wtedy przechodzi).
+* Wybór czy użytkownik chce podać numer telefonu czy korzystać z aplikacji anonimowo. W tym drugi przypadku dwa następne kroki są pomijane.
 * Prośba o podanie numeru telefonu. Na stałe umieszczony jest przedrostek +48. Informacja o tym, że rejestrując się ackeptuje się regulamin
 * Po potwierdzeniu, użytkownik otrzymuje wiadomość SMS na podany numer i wpisuje 6-cyfrowy kod z wiadomości.
 
@@ -54,7 +55,7 @@ Aplikacja odpytuje serwer i pokazuje Użytkownikowi jeden z trzech statusów:
 
 ### Działanie w tle
 
-Aplikacja działa w tle i na bieżąco zapisuje informacje o wykrytych urządzeniach. Zapisy starsze niż 2 tygodnie są na bieżąco kasowane. W przypadku jeśli aplikacja zostanie wyłączona podejmuje próbę włączenia się ponownie.
+Aplikacja działa w tle i na bieżąco zapisuje informacje o wykrytych urządzeniach. Zapisy starsze niż 2 tygodnie są na bieżąco usuwane. W przypadku jeśli aplikacja zostanie wyłączona podejmuje próbę włączenia się ponownie.
 
 ### Okno O Aplikacji
 
