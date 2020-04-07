@@ -11,3 +11,8 @@ Tobiasz Olejnik        | [tobiaszolejnik](https://github.com/tobiaszolejnik) | a
 Błażej Biesiada        | [bejo](https://github.com/bejo)                     | iOS
 Piotr Szczepaniak      | [D0han](https://github.com/D0han)                   | backend
 Mikołaj Lewandowski    | [mikolevy](https://github.com/mikolevy)             | specs
+Bartosz Paszcza        | [bpaszcza](https://github.com/mikolevy)             | specs
+Wojciech Dziwulski     | [wojdziw](https://github.com/mikolevy)              | specs
+Wojciech Szkutnik      | [wojtekszkutnik](https://github.com/mikolevy)       | specs
+Szymon Teżewski        | [jasisz](https://github.com/mikolevy)               | specs
+Michał Kuchtar         | [michalkuchtar](https://github.com/mikolevy)        | android
