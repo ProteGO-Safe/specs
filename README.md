@@ -30,8 +30,8 @@ Każda z osób u której zdiagnozowano SARS-CoV-2 jest proszona o przesłania hi
 Dane trafiają na serwer gdzie administrator na podstawie ich analizy (długości, częstości, bliskości zgodnie ze standarami WHO) decyduje, które z osób z którymi spotykał się chory powinny otrzymać informacje o potencjalnym zagrożeniu. W przypadku osób, które nie zarejestrowały się przy pomocy numer telefonu, administrator nie ma możliwości poznania ich danych osobowych.
 
 Każdy użytkownik może po otwarciu aplikacji sprawdzić jaki jest jego spersonalizowany status:
-* Zielony - można swobodnie wychodzić zachowując obowiązujące regulacje
-* Pomarańczowy - nie minęło jeszcze 2 tygodnie od zainstalowanie aplikacji, nie mamy wystarczająco dużo danych aby określić status. Należy zachować ostrożność.
+* Zielony - można swobodnie wychodzić, zachowując obowiązujące regulacje
+* Pomarańczowy - nie minęły jeszcze 2 tygodnie od zainstalowania aplikacji, nie mamy wystarczająco dużo danych aby określić status. Należy zachować ostrożność.
 * Czerwony - należy skontaktować się z GIS i poddać domowej kwarantannie
 
 Aplikacja docelowo powinna być zainstalowana przez każdego obywatela. Rozpoczynamy budowę kultury używania aplikacji np. poprzez pokazywanie sobie nawzajem swojego zielonego statusu podczas powitania.
