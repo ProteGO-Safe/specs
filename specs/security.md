@@ -2,11 +2,11 @@
 
 ### Aplikacje mają zaszyte adresy do serwera Google zamiast CNAME, który można kontrolować.
 
-Wiemy. Podmienimy to jak tylko dostaniemy odpowiedni adres w domenie gov.pl. Tu jest odpowiednie [zadanie](https://github.com/anna-app/specs/issues/11).
+Wiemy. Podmienimy to jak tylko dostaniemy odpowiedni adres w domenie gov.pl. Tu jest odpowiednie [zadanie](https://github.com/ProteGO-app/specs/issues/11).
 
 ### Aplikacja nie weryfikuje wystawcy certyfikatu SSL serwera do którego się łączy.
 
-Wiemy. Poprawimy wkrótce. Odpowiednie zadania są [tutaj](https://github.com/anna-app/ios/issues/22) i [tutaj](https://github.com/anna-app/ios/issues/22).
+Wiemy. Poprawimy wkrótce. Odpowiednie zadania są [tutaj](https://github.com/ProteGO-app/ios/issues/22) i [tutaj](https://github.com/ProteGO-app/android/issues/18).
 
 ### Aplikacja jest open-source. Mogę ją zmodyfikować i zainstalować na swoim telefonie wersję, która zawsze będzie pokazywać zielony status. 
 
