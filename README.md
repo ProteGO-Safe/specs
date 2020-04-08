@@ -17,21 +17,23 @@ Aplikacja budowana jest przez społeczność obywateli pod kuratelą Ministerstw
 
 Aplikacja równoważy potrzebę zachowania prywatności obywateli z potrzebą zbierania informacji o tym kogo mogły spotkać i zarazić osoby zakażone. 
 
-Aplikacja wymaga podania numeru telefonu i potwierdzenia go wiadomością SMS. Numer telefonu wymagany jest po to aby GIS mógł się skontaktować z użytkownikiem, który był narażony na kontakt z osobami chorymi.
+Aplikacja może być używana anonimowo. W takim wypadku całość komunikacji z użytkownikiem odbywa się przy pomocy aplikacji.  
+
+Opcjonalnie użytkownik może podać swój numeru telefonu i potwierdzić go wiadomością SMS. W takim wypadku numer telefonu może zostać wykorzystany przez GIS do kontaktu z użytkownikiem, który był narażony na kontakt z osobami chorymi.
 
 Po zainstalowaniu, aplikacja działa w tle i skanuje otoczenie w poszukiwaniu innych telefonów (poprzez technologię Bluetooth) na których zainstalowana jest aplikacja i zapisuje historię spotykanych urządzeń. 
 
-Dane te przechowywane są wyłącznie na urządzeniach obywateli i nie są przesyłane na żaden serwer centralny.
+Dane te przechowywane są wyłącznie na urządzeniach obywateli i nie są przesyłane na żaden serwer centralny. Dane usuwane są po 2 tygodniach.
 
-Dane wysyłane są do serwera dopiero w sytuacji w której u użytkownika aplikacji zdiagnozowano wirusa. W takim wypadku GIS instruuje pacjenta w jaki sposób wysłać dane z telefonu na serwer.
+Każda z osób u której zdiagnozowano SARS-CoV-2 jest proszona o przesłania historii napotkanych urządzeń na serwer.
 
-Dane trafiają na serwer gdzie administrator na podstawie ich analizy (długości, częstości, bliskości zgodnie ze standarami WHO) decyduje, które z osób z którymi spotykał się chory powinny poddać się kwarantannie domowej.
+Dane trafiają na serwer gdzie administrator na podstawie ich analizy (długości, częstości, bliskości zgodnie ze standarami WHO) decyduje, które z osób z którymi spotykał się chory powinny otrzymać informacje o potencjalnym zagrożeniu. W przypadku osób, które nie zarejestrowały się przy pomocy numer telefonu, administrator nie ma możliwości poznania ich danych osobowych.
 
-Każdy użytkownik może po otwarciu aplikacji sprawdzić jakie jest jego spersonalizowany status:
+Każdy użytkownik może po otwarciu aplikacji sprawdzić jaki jest jego spersonalizowany status:
 * Zielony - można swobodnie wychodzić, zachowując obowiązujące regulacje
 * Pomarańczowy - nie minęły jeszcze 2 tygodnie od zainstalowania aplikacji, nie mamy wystarczająco dużo danych aby określić status. Należy zachować ostrożność.
 * Czerwony - należy skontaktować się z GIS i poddać domowej kwarantannie
 
-Aplikacja docelowo powinna być zainstalowana przez każdego obywatela. Rozpoczynamy budowę kultury używania aplikacji np. poprzez pokazywanie sobie nawzajem swojego zielonego statusu, obok podania ręki.
+Aplikacja docelowo powinna być zainstalowana przez każdego obywatela. Rozpoczynamy budowę kultury używania aplikacji np. poprzez pokazywanie sobie nawzajem swojego zielonego statusu podczas powitania.
 
 Ze względu na zrozumiały opór społeczny przed permanentną inwigilacją obywateli, kładziemy duży nacisk na zadbanie o ochronę prywatności. Kod aplikacji jest upubliczniony (open source) i może być zaudytowany przez ekspertów.
