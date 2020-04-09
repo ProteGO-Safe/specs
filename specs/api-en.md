@@ -7,35 +7,11 @@ API endpoints are invoked with a POST request with the parameters in a JSON body
 ## Common parameters
 The following parameters are included in every single request:
 
-`platform` : `string ("ios"|"android")`
-
-`os_version` : `string`
-
-`device_type` : `string`
-
-`app_version` : `int`
-
-`api_version` : `int`
-
 `user_id` : `string`
-
-`lang` : `string`
 
 Description of parameters:
 
-`platform` - platform identifier. Currently one of `“android”` and `“ios”`
-
-`os_version` - operating system version
-
-`device_type` - device type (e.g. `"iPhone X"` or `"Android Galaxy"`)
-
-`app_version` - currently installed app version
-
-`api_version`  - API version supported by the application (by default 1)
-
 `user_id` - user identifier assigned by server. Can be empty if user is not yet registered
-
-`lang` - two-letter code for the language of the phone
 
 ## `/check_version`
 
@@ -149,19 +125,7 @@ The server stores the data in the `Encounters` table with the appropriate `user_
 
 ### `Users`
 
-`platform` : `string ("ios"|"android")`
-
-`os_version` : `string`
-
-`device_type` : `string`
-
-`app_version` : `int`
-
-`api_version` : `int`
-
 `user_id` : `string`
-
-`lang` : `string`
 
 `msisdn` : `string`
 

@@ -8,35 +8,11 @@ Parametry do każdej funkcji API przesyłamy w formacie JSON poprzez wywołanie 
 
 Każdy wywołanie zawiera zawsze następujące parametry:
 
-`platform` : `string ("ios"|"android")`
-
-`os_version` : `string`
-
-`device_type` : `string`
-
-`app_version` : `int`
-
-`api_version` : `int`
-
 `user_id` : `string`
-
-`lang` : `string`
 
 Objaśnienie:
 
-`platform` - identyfikator platformy. Aktualnie `"android"` lub `"ios"`
-
-`os_version` - wersja systemu operacyjnego platformy
-
-`device_type` - typ urządzenia (np. `"iPhone X"` lub `"Android Galaxy"`)
-
-`app_version` - numer wersji zainstalowanej aplikacji 
-
-`api_version`  - wersja API którą wspiera aplikacja (domyślnie 1)
-
 `user_id` - identyfikator użytkownika przyznany przez serwer. Może być pusty jeśli użytkownik nie jest jeszcze zarejestrowany.
-
-`lang` - dwuliterowy identyfikator języka  telefonu
 
 ## Funkcja `/check_version`
 
@@ -147,19 +123,7 @@ Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 
 ### `Users`
 
-`platform` : `string ("ios"|"android")`
-
-`os_version` : `string`
-
-`device_type` : `string`
-
-`app_version` : `int`
-
-`api_version` : `int`
-
 `user_id` : `string`
-
-`lang` : `string`
 
 `msisdn` : `string`
 
