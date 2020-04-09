@@ -73,7 +73,7 @@ Działa tylko w środowisku deweloperskim.
 Serwer zwraca błąd jeśli msisdn nie jest z Polski (nie zaczyna się od 48). 
 Serwer generuje kod rejestracyjny, wysyła go wiadomością SMS na podany numer przez bramkę SMS. Zapamiętuje datę i czas rozpoczęcia procesu rejestracji, numer telefonu i  wysłany kod. Należy zrobić zabezpieczenia przed nadużywaniem serwisu.
 
-### Funkcja `/confirm_registration`
+## Funkcja `/confirm_registration`
 
 Aplikacja potwierdza rejestrację.
 
@@ -96,6 +96,19 @@ standardowe
 `error_msg` : `string`
 
 Serwer sprawdza czy istnieje bieżąca rejestracja zgodna z parametrami. Jeśli tak, rejestruje użytkownika, zapisuje i zwraca `user_id`. Jeśli nie, zwraca `error_msg`.
+
+
+## Funkcja `/register_no_msisdn`
+
+Aplikacja rejestruje nowe urządzenie bez konieczności podania numeru telefonu.
+
+### Parametry:
+standardowe
+
+### Wynik:
+`user_id` : `string`
+
+Serwer rejestruje użytkownika zwracając `user_id`.
 
 ## Funkcja `/get_status`
 
@@ -128,16 +141,20 @@ Wysłanie listy napotkanych urządzeń na serwer.
 ### Parametry:
 standardowe
 
+`proof` : `string`
+
 `encounters` : `[{"encounters_date": datetime, "beacon_id", "signal_strength"}, …]`
 
-`encounters` - `lista napotkanych urządzeń`
+`proof` : `identyfikator przekazany zdiagnozowanemy użytkownikowi`
+
+`encounters` - `lista napotkanych urządzeń` 
 
 
 `encounter_date` - `data i godzina spotkania`
 
 `beacon_id` - `id napotkanego urządzenia`
 
-`signal_strength` - `siła sygnału przy napotkaniu urządzenia`
+`signal_strength` - `siła sygnału przy napotkaniu urządzenia (opcjonalne)`
 
 Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 
@@ -185,6 +202,8 @@ Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 ### `Encounter Uploads`
 
 `upload_id` : `string`
+
+`proof` : `string`
 
 `user_id` : `string`
 

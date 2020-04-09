@@ -100,6 +100,18 @@ Common parameters and the following:
 
 Server checks if the registration exists. If so, the user is registered and stored and the endpoint returns the `user_id`. If not, `error_msg` is returned.
 
+## `/register_no_msisdn`
+
+Register a device without passing phone number.
+
+### Request parameters:
+Common parameters
+
+### Response:
+`user_id` : `string`
+
+Server registers new user and returns `user_id`. 
+
 ## `/get_status`
 
 Check your status and obtain `beacon_ids`.
@@ -130,7 +142,11 @@ Send a list of encountered devices to the server.
 ### Request parameters:
 Common parameters and the following:
 
+`proof` : `string`
+
 `encounters` : `[{“encounters_date”: datetime, “beacon_id”, “signal_strength”}, …]`
+
+`proof` - `identification number provided to positively diagnosed user`
 
 `encounters` - `a list of encountered devices`
 
@@ -139,7 +155,7 @@ Common parameters and the following:
 
 `beacon_id` - `id of the encountered device`
 
-`signal_strength` - `strength of the signal during the encounter`
+`signal_strength` - `strength of the signal during the encounter (optional)`
 
 The server stores the data in the `Encounters` table with the appropriate `user_id`.
 
