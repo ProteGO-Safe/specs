@@ -16,3 +16,4 @@ Wojciech Dziwulski     | [wojdziw](https://github.com/wojdziw)               | s
 Wojciech Szkutnik      | [wojtekszkutnik](https://github.com/wojtekszkutnik) | specs
 Szymon Teżewski        | [jasisz](https://github.com/jasisz)                 | backend, specs
 Michał Kuchtar         | [michalkuchtar](https://github.com/michalkuchtar)   | android
+Tomasz Heimowski       | [theimowski](https://github.com/theimowski)         | android
