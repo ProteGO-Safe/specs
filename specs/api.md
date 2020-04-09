@@ -108,7 +108,7 @@ standardowe
 ### Wynik:
 `user_id` : `string`
 
-Serwer rejestruje użytkownika zwracając `user_id`. Należy zrobić zabezpieczenia przed nadużywaniem serwisu.
+Serwer rejestruje użytkownika zwracając `user_id`.
 
 ## Funkcja `/get_status`
 
@@ -154,7 +154,7 @@ standardowe
 
 `beacon_id` - `id napotkanego urządzenia`
 
-`signal_strength` - `siła sygnału przy napotkaniu urządzenia`
+`signal_strength` - `siła sygnału przy napotkaniu urządzenia (opcjonalne)`
 
 Serwer zapisuje dane do tabeli `Encounters` wraz z odpowiednim `user_id`.
 
