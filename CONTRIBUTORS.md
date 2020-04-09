@@ -19,4 +19,5 @@ Michał Kuchtar         | [michalkuchtar](https://github.com/michalkuchtar)   | 
 Tomasz Heimowski       | [theimowski](https://github.com/theimowski)         | android
 Adam Kozłowski         | [vetin4ri](https://github.com/vetin4ri)             | backend
 Jarosław Smiejczak     | [jotes](https://github.com/jotes)                   | backend
+Błażej Biesiada	       | [bejo](https://github.com/bejo)                     | iOS
 	
