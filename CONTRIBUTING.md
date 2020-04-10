@@ -27,6 +27,10 @@ ProteGO ma jedynie sens jeśli zostanie stworzone we współpracy z administracj
 
 Poza wydaniem wersji `1.0` opisanej [tutaj](https://github.com/ProteGO-app/specs/blob/master/specs/README.md) nie ma jeszcze decyzji co dalej. Na pewno będziemy chcieli zachęcić użytkowników do częstszego zaglądania do aplikacji? Masz pomysł jak to zrobić - napisz.
 
+### Jaki mamy "branching strategy"?
+
+Mamy `mastera` i dla każdej nowej funkcjonalności/usprawnienia/poprawki błędu robimy `brancha`. Jeśli jest gotowy to `mergowany` jest bezpośrednio do `mastera`. Gdy zbliżymy się do wejścia na produkcję lub będziemy prowadzili rozbudowane testy z użytkownikami wtedy mamy plan przejść na [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). Dzięki temu będziemy mieli możliwość zamrażania wersji do wydania, wprowadzania `hotfixów` przy utrzymaniu intensywnego rozwoju nowych funkcjonalności.
+
 ## Chcę zgłosić błąd w działaniu aplikacji
 
 Używamy `GitHub issues` do śledzenia postępów i błędów. Wypełnij formularz błędu w [aplikacji iOS](https://github.com/anna-app/ios/issues/new?assignees=&labels=&template=bug_report.md&title=), w [aplikacji Android](https://github.com/anna-app/android/issues/new?assignees=&labels=&template=bug_report.md&title=) lub [na serwerze](https://github.com/anna-app/backend/issues/new?assignees=&labels=&template=bug_report.md&title=). Pamiętaj o podaniu wszystkich wymaganych informacji. Zanim zgłosisz coś nowego, sprawdź czy nie ma już wcześniejszego podobnego zgłoszenia.
