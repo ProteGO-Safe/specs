@@ -21,7 +21,7 @@ Kod i komentarze w kodzie piszemy po angielsku. Commity po polsku lub angielsku.
 
 ### Kto podejmuje decyzje w tym projekcie?
 
-ProteGO ma jedynie sens jeśli zostanie stworzone we współpracy z administracją. Potrzebujemy połączenia z zaufanym źródłem informacji dotyczącym tego czy ktoś został zakażony SARS-CoV-2. Taki rejestr jest prowadzony przez stronę rządową. Ministerstwo Cyfryzacji (MC) zdecydowało się wydać i promować tę aplikację. Oznacza to jednak również to, że ostatecznie to MC decyduje o tym czy aplikacja i jej kolejne wersje będą wydane. Potrzebujemy więc współpracy i dialogu, który połączy potrzeby i obawy każdej ze stron. **Aktualnie** łącznikiem między MC i projektem jest [@jakublipinski](https://github.com/jakublipinski).
+ProteGO ma jedynie sens jeśli zostanie stworzone we współpracy z administracją. Potrzebujemy połączenia z zaufanym źródłem informacji dotyczącym tego czy ktoś został zakażony SARS-CoV-2. Taki rejestr jest prowadzony przez stronę rządową. Ministerstwo Cyfryzacji (MC) zdecydowało się wydać i promować tę aplikację. Oznacza to jednak również to, że ostatecznie to MC decyduje o tym czy aplikacja i jej kolejne wersje będą wydane. Potrzebujemy więc współpracy i dialogu, który połączy potrzeby i obawy każdej ze stron. **Aktualnie** łącznikiem między MC i projektem jest Mateusz Romanów [@MateuszRomanow](https://github.com/MateuszRomanow).
 
 ### Jaki jest "roadmap" projektu?
 
