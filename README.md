@@ -36,4 +36,4 @@ Każdy użytkownik może po otwarciu aplikacji sprawdzić jaki jest jego sperson
 
 Aplikacja docelowo powinna być zainstalowana przez każdego obywatela. Rozpoczynamy budowę kultury używania aplikacji np. poprzez pokazywanie sobie nawzajem swojego zielonego statusu podczas powitania.
 
-Ze względu na zrozumiały opór społeczny przed permanentną inwigilacją obywateli, kładziemy duży nacisk na zadbanie o ochronę prywatności. Kod aplikacji jest upubliczniony (open source) i może być zaudytowany przez ekspertów.
+Ze względu na zrozumiały opór społeczny przed permanentną inwigilacją obywateli, kładziemy duży nacisk na zadbanie o ochronę prywatności. Kod aplikacji jest upubliczniony (open source) i może być poddany audytowi przez osoby trzecie.
