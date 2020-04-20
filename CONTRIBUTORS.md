@@ -19,4 +19,5 @@ Michał Kuchtar         | [michalkuchtar](https://github.com/michalkuchtar)   | 
 Tomasz Heimowski       | [theimowski](https://github.com/theimowski)         | android
 Adam Kozłowski         | [vetin4ri](https://github.com/vetin4ri)             | backend
 Jarosław Smiejczak     | [jotes](https://github.com/jotes)                   | backend
-	
+Paweł Kleczkowski      | [pkleczko](https://github.com/pkleczko)             | android
+Kamil Pawlak           | [qLb](https://github.com/qLb)                       | specs	
