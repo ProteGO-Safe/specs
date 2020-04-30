@@ -14,7 +14,6 @@ Mikołaj Lewandowski    | [mikolevy](https://github.com/mikolevy)             | 
 Bartosz Paszcza        | [bpaszcza](https://github.com/bpaszcza)             | specs
 Wojciech Dziwulski     | [wojdziw](https://github.com/wojdziw)               | specs
 Wojciech Szkutnik      | [wojtekszkutnik](https://github.com/wojtekszkutnik) | specs
-Szymon Teżewski        | [jasisz](https://github.com/jasisz)                 | backend, specs
 Michał Kuchtar         | [michalkuchtar](https://github.com/michalkuchtar)   | android
 Tomasz Heimowski       | [theimowski](https://github.com/theimowski)         | android
 Adam Kozłowski         | [vetin4ri](https://github.com/vetin4ri)             | backend
