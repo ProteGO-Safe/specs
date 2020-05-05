@@ -19,4 +19,5 @@ Tomasz Heimowski       | [theimowski](https://github.com/theimowski)         | a
 Adam Kozłowski         | [vetin4ri](https://github.com/vetin4ri)             | backend
 Jarosław Smiejczak     | [jotes](https://github.com/jotes)                   | backend
 Paweł Kleczkowski      | [pkleczko](https://github.com/pkleczko)             | android
-Kamil Pawlak           | [qLb](https://github.com/qLb)                       | specs	
+Kamil Pawlak           | [qLb](https://github.com/qLb)                       | specs
+Artur Słomowski        | [tarvald](https://github.com/tarvald)               | specs
