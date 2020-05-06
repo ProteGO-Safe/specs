@@ -9,7 +9,6 @@ Oskar Hinc             | [oskarhinc](https://github.com/oskarhinc)           | s
 Maciej Janusz          | [maciekjanusz](https://github.com/maciekjanusz)     | android
 Tobiasz Olejnik        | [tobiaszolejnik](https://github.com/tobiaszolejnik) | android
 Błażej Biesiada        | [bejo](https://github.com/bejo)                     | iOS
-Piotr Szczepaniak      | [D0han](https://github.com/D0han)                   | backend
 Mikołaj Lewandowski    | [mikolevy](https://github.com/mikolevy)             | specs
 Bartosz Paszcza        | [bpaszcza](https://github.com/bpaszcza)             | specs
 Wojciech Dziwulski     | [wojdziw](https://github.com/wojdziw)               | specs
