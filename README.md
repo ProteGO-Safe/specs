@@ -9,7 +9,6 @@
 5. [Dalsze założenia](#dalsze-założenia)
 6. [Zakres 2.0](#zakres-20)
 7. [Zakres 3.0](#zakres-30)
-8. [Zakres 3.1](#zakres-31)
 9. [Zakres 3.2](#zakres-32)
 10. [Najczęściej zadawane pytania](FAQ.md)
 11. [Chcę pomóc, zgłosić błąd, mam pomysł](CONTRIBUTING.md)
@@ -111,35 +110,10 @@ TempID aplikacji jest rotowane tj. zmieniane co 15 minut zgodnie z bazą zapisan
 Moduł OpenTrace skanuje otoczenie w celu wykrycia innych użytkowników i zapisuje dane: timestamp, msg (TempID), siła sygnału bluetooth. Dane te są zapisywane wyłącznie w lokalnej pamięci telefonu.
 
 ## Zakres 3.1
-Zakres funkcjonalności dla wersji 3.1
+Zakres funkcjonalności dla wersji 3.1 (w opracowaniu #147)
 
-Aplikacja zostaje rozszerzona o funkcjonalność generowania kodów QR (kod QR jest związany z TempID).
-Dla każdego statusu triażu użytkownika jest przypisany kod QR w kolorze triażu.
-Aplikacja zyskuje funkcjonalność skanowania kodów QR wygenerowanych na innych urządzeniach z aplikacją ProteGO Safe.
-Użytkownik jednej aplikacji może łatwo zeskanować kod QR drugiego użytkownika. W ten sposób TempID urządzenia zapisuje takie spotkanie jako bezpośrednie; jeżeli zestaw danych ze skanowania Bluetooth wykaże, że urządzenia widziały się przez więcej niż 15 min, oznacza to, że był to kontakt bezpośredni trwający więcej niż 15 minut. 
-Aplikacja w tej wersji obejmuje możliwość wyboru pomiędzy korzystaniem z aplikacji w trybie osoby fizycznej oraz instytucji lub stworzymy dwie osobne aplikacje - jedną dla osób fizycznych (ProteGO Safe) i drugą dla instytucji.
-
-Dla Instytucji planowane jest uruchomienie osobnego serwisu dostępnego online “Konta Instytucji”, które będzie działało odrębnie w stosunku do “zwykłego” użytkownika. Instytucji również przyznawany będzie UID.
-Tryb Instytucji obsługuje następujące funkcje:
-Rejestracja konta “Instytucji”. Instytucja to robocza nazwa oznaczająca podmioty publiczne takie jak: urzędy, muzea, fundacje i inne miejsca przyjmujące interesantów. 
-Do rejestracji instytucji wymagany jest numer NIP. Aplikacja będzie umożliwiała import danych z bazy CEIDG/KRS a następnie ich weryfikację i potwierdzenie. 
-Zapisanie danych kontaktowych Instytucji.
-Wygenerowanie kodu QR przypisanego do Instytucji, a właściwie generowanego dla każdej lokalizacji/ oddziału instytucji osobno.
-Wygenerowanie akcji stworzenia plakatu z kodem QR instytucji i nazwą instytucji wynikającą z NIP. 
-Możliwość wysłania plakatu z kodem QR instytucji na podanego przy rejestracji instytucji emaila do kontaktu
-Możliwość wyświetlania w koncie Instytucji listy ostrzeżeń aplikacji. Są to ostrzeżenia takie jak “Zdezynfekuj swoją placówkę, ponieważ w ostatnim czasie przebywała tam osoba z pozytywnym wynikiem testu na COVID-19”. Tego rodzaju komunikacja jednokierunkowa pozwala ostrzegać instytucje o ryzyku, do którego mogło dojść, nie daje natomiast możliwości na komunikację zwrotną.
-Ostrzeżenia te są związane z powiadomieniami z Centrum Kontroli w razie wykrycia identyfikatora instytucji w danych przekazanych przez użytkownika z pozytywnym wynikiem testu na Covid-19.
-Ostrzeżenia/notyfikacje, o których mowa w niniejszym punkcie nie będą zawierały danych umożliwiających identyfikację osoby fizycznej takich jak np. dokładny czas wizyty - jest to kluczowe założenie z punktu widzenia bezpieczeństwa.
-Możliwość ręcznej weryfikacji podmiotów zakładających konta Instytucji.
-Możliwość tymczasowego zawieszenia/odwieszenia konta Instytucji.
-
-Przykładowe scenariusze zastosowania kodu QR w muzeum:
-Wydrukowany kod QR jest udostępniony w widocznym miejscu. Przed wejściem do muzeum użytkownik może zeskanować kod – jeśli otrzyma pozytywny wynik testu na Covid-19 w ustalonym przez epidemiologów interwale zagrażającym bepieczeństwu publicznemu muzeum anonimowo dostanie odpowiednią informację.
- 
- 
 ## Zakres 3.2
-Zakres funkcjonalności dla wersji 3.2 (w opracowaniu)
-
+Zakres funkcjonalności dla wersji 3.2 (w opracowaniu #147)
 
 ## ProteGO Safe and it's documentation is licensed under
 
