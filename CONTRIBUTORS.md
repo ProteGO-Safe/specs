@@ -9,12 +9,10 @@ Oskar Hinc             | [oskarhinc](https://github.com/oskarhinc)              
 Maciej Janusz          | [maciekjanusz](https://github.com/maciekjanusz)           | android
 Tobiasz Olejnik        | [tobiaszolejnik](https://github.com/tobiaszolejnik)       | android
 Błażej Biesiada        | [bejo](https://github.com/bejo)                           | ios
-Piotr Szczepaniak      | [D0han](https://github.com/D0han)                         | backend
 Mikołaj Lewandowski    | [mikolevy](https://github.com/mikolevy)                   | specs
 Bartosz Paszcza        | [bpaszcza](https://github.com/bpaszcza)                   | specs
 Wojciech Dziwulski     | [wojdziw](https://github.com/wojdziw)                     | specs
 Wojciech Szkutnik      | [wojtekszkutnik](https://github.com/wojtekszkutnik)       | specs
-Szymon Teżewski        | [jasisz](https://github.com/jasisz)                       | backend, specs
 Michał Kuchtar         | [michalkuchtar](https://github.com/michalkuchtar)         | android
 Tomasz Heimowski       | [theimowski](https://github.com/theimowski)               | android
 Adam Kozłowski         | [vetin4ri](https://github.com/vetin4ri)                   | backend
