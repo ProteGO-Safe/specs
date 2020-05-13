@@ -5,13 +5,12 @@
 1. [Wprowadzenie](#wprowadzenie)
 2. [Grupy ryzyka zarażenia Sars-Cov-2](#grupy-ryzyka-zarażenia-sars-cov-2)
 3. [Anonimowość i bezpieczeństwo](#anonimowość-i-bezpieczeństwo)
-4. [Grupy ryzyka zarażenia Sars-Cov-2](#grupy-ryzyka-zarażenia-sars-cov-2)
-5. [Dalsze założenia](#dalsze-założenia)
-6. [Zakres 2.0](#zakres-20)
-7. [Zakres 3.0](#zakres-30)
-9. [Zakres 3.2](#zakres-32)
-10. [Najczęściej zadawane pytania](FAQ.md)
-11. [Chcę pomóc, zgłosić błąd, mam pomysł](CONTRIBUTING.md)
+4. [Dalsze założenia](#dalsze-założenia)
+5. [Zakres 2.0](#zakres-20)
+6. [Zakres 3.0](#zakres-30)
+7. [Zakres 3.2](#zakres-32)
+8. [Najczęściej zadawane pytania](FAQ.md)
+9. [Chcę pomóc, zgłosić błąd, mam pomysł](CONTRIBUTING.md)
 
 ## Wprowadzenie 
 Celem aplikacji mobilnej ProteGO Safe jest dostarczenie narzędzia asystującego i chroniącego użytkownika i jego bliskich przed rozprzestrzenianiem się COVID-19, a docelowo także pomoc w przejściu z ogólnopolskiego lockdownu do selektywnej kwarantanny osób, które były narażone na ryzyko zakażenia COVID-19.
