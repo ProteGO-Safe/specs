@@ -3,9 +3,9 @@
 ## Spis treści
 
 1. [Wprowadzenie](#wprowadzenie)
-2. [Grupy ryzyka zarażenia Sars-Cov-2](#grupy-ryzyka-zarażenia-sars-cov-2)
+2. [Grupy ryzyka zarażenia SARS-CoV-2](#grupy-ryzyka-zarażenia-sars-cov-2)
 3. [Anonimowość i bezpieczeństwo](#anonimowość-i-bezpieczeństwo)
-4. [Grupy ryzyka zarażenia Sars-Cov-2](#grupy-ryzyka-zarażenia-sars-cov-2)
+4. [Grupy ryzyka zarażenia SARS-CoV-2](#grupy-ryzyka-zarażenia-sars-cov-2)
 5. [Dalsze założenia](#dalsze-założenia)
 6. [Zakres 2.0](#zakres-20)
 7. [Zakres 3.0](#zakres-30)
@@ -35,7 +35,7 @@ W kolejnej wersji aplikacji funkcjonalności związane z zapobieganiem COVID-19 
 
 Podejście wykorzystywane w aplikacji to tzw. podejście mieszane (hybrid/mixed). Nie jest to rozwiązanie w 100% zdecentralizowane, gdyż w celu analizy m.in. “jakości” kontaktu pomiędzy urządzeniami aplikacja potrzebuje wykonać taką operację na serwerze centralnym (opt-in). Takie podejście jest podyktowane potrzebą rozszerzenia wykorzystywania aplikacji o urządzenia starsze, na których taka analiza byłaby trudna lub niemożliwa. Podejście mieszane jest obecnie przedmiotem dyskusji w sieci eHealth. Sam Europejski Inspektor Ochrony Danych stwierdził wprost, że nawet w przypadku rozwiązań zdecentralizowanych “w pełni”, jakiś serwer zewnętrzny jest zaangażowany w operacje przetwarzania. Aplikacja ProteGO Safe stara się przetwarzać na serwerze absolutne minimum danych tak, aby zapewnić większe wsparcie aplikacji przez urządzenia użytkowników oraz uwiarygodnić przekazanie informacji o kontakcie z urządzeniem osoby chorej na COVID-19. Serwer aplikacji oraz serwer rejestru osób zakażonych COVID-19 są od siebie niezależne.
 
-## Grupy ryzyka zarażenia Sars-Cov-2
+## Grupy ryzyka zarażenia SARS-CoV-2
 
 Każdy użytkownik może po włączeniu aplikacji sprawdzić jaki jest jego spersonalizowany status:
 Zielony - niska grupa ryzyka - można swobodnie wychodzić, zachowując obowiązujące regulacje i profilaktykę.
