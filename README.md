@@ -112,7 +112,7 @@ Zakres funkcjonalności dla wersji 4.0:
 - Zgodnie z wymogami dotyczącymi korzystania z API: urządzenie użytkownika rozgłasza w sposób ciągły tymczasowe identyfikatory (DiagnosisKey), które pobierane są z poprzednio wygenerowanej przez użytkownika puli kluczy, zmienianych po upływie określonego czasu. Nasłuchuje jednocześnie na identyfikatory nadawane przez inne urządzenia.
 - Wszelkie identyfikatory są generowane w sposób uniemożliwiający ich powiązanie z konkretnym urządzeniem lub użytkownikiem.
 - Dane dotyczące kontaktu usuwane są z urządzenia użytkownika po upływie 14 dni [parametr].
-- Aplikacja przynajmniej raz na dobę pobiera identyfikatory użytkowników pozytywnie zweryfikowanych przez Health Authority jako zakażonych i porównuje je z identyfikatorami zapisanymi na urządzeniu użytkownika, dokonując w razie potrzeby ich analizy i oceny ryzyka kontaktu.
+- Aplikacja przynajmniej raz na dobę pobiera identyfikatory użytkowników pozytywnie zweryfikowanych przez Generalny Inspektorat Sanitarny jako zakażonych i porównuje je z identyfikatorami zapisanymi na urządzeniu użytkownika, dokonując w razie potrzeby ich analizy i oceny ryzyka kontaktu.
 - W przypadku dłuższej nieobecności użytkownika końcowego, po włączeniu aplikacji pobierane są wszystkie DiagnosisKey chorych, z ostatnich 2 tygodni, których aplikacja nie posiada.
 - Analiza danych dotyczących bezpośredniości kontaktu przeprowadzana jest jedynie lokalnie na urządzeniu użytkownika końcowego.
 - W przypadku wykrycia kontaktu z chorym i ocenie siły tego kontaktu, użytkownik otrzymuje odpowiednie powiadomienie push.
