@@ -119,7 +119,7 @@ Zakres funkcjonalności dla wersji 4.0:
 - W zależności od tego, do jakiej kategorii dany kontakt zostanie zakwalifikowany, użytkownik otrzymuje odpowiednie powiadomienie push.
 
 ## ProteGO Safe and it's documentation is licensed under
-
+Kod aplikacji jest publicznie dostępny na znanej i otwartej licencji GPL-3.0. Link do repozytorium GitHub: https://github.com/ProteGO-Safe
 [GNU General Public License v3.0](./LICENSE)
 
 Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
