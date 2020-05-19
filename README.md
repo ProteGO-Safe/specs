@@ -3,7 +3,7 @@
 ## Spis treści
 
 1. [Wprowadzenie](#wprowadzenie)
-2. [Grupy ryzyka zarażenia Sars-Cov-2](#grupy-ryzyka-zarażenia-sars-cov-2)
+2. [Grupy ryzyka zarażenia SARS-CoV-2](#grupy-ryzyka-zarażenia-sars-cov-2)
 3. [Anonimowość i bezpieczeństwo](#anonimowość-i-bezpieczeństwo)
 5. [Dalsze założenia](#dalsze-założenia)
 6. [Zakres funkcjonalności wersji 2.0](#wykonana-zakres-funkcjonalności-wersji-20)
@@ -46,7 +46,7 @@ Jeżeli doszło do takiego kontaktu, aplikacja na podstawie m.in. okresu spotkan
 Następnie aplikacja wyświetli dalsze komunikaty (w tym precyzyjny numer telefonu do kontaktu z Centrum Kontaktu) jak postępować w przypadku bycia w Wysokiej Grupie Ryzyka zarażenia się SARS-CoV-2. 
 
 
-## Grupy ryzyka zarażenia Sars-Cov-2
+## Grupy ryzyka zarażenia SARS-CoV-2
 
 Każdy użytkownik może po włączeniu aplikacji sprawdzić jaki jest jego spersonalizowany status: 
 - Zielony - niska grupa ryzyka - można swobodnie wychodzić, zachowując obowiązujące regulacje i profilaktykę. 
