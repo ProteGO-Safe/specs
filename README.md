@@ -6,9 +6,9 @@
 2. [Grupy ryzyka zarażenia Sars-Cov-2](#grupy-ryzyka-zarażenia-sars-cov-2)
 3. [Anonimowość i bezpieczeństwo](#anonimowość-i-bezpieczeństwo)
 5. [Dalsze założenia](#dalsze-założenia)
-6. [Zakres funkcjonalności wersji 2.0](#wykonana_Zakres_funkcjonalnoci_wersji_20)
-7. [Zakres funkcjonalności wersji 3.0](#wykonana_Zakres_funkcjonalnoci_wersji_30)
-9. [Zakres funkcjonalności wersji 4.0](#w_trakcie_Zakres_funkcjonalnoci_wersji_40)
+6. [Zakres funkcjonalności wersji 2.0](#wykonana-zakres-funkcjonalności-wersji-20)
+7. [Zakres funkcjonalności wersji 3.0](#wykonana-zakres-funkcjonalności-wersji-30)
+9. [Zakres funkcjonalności wersji 4.0](#w-trakcie-zakres-funkcjonalności-wersji-40)
 10. [Najczęściej zadawane pytania](FAQ.md)
 11. [Chcę pomóc, zgłosić błąd, mam pomysł](CONTRIBUTING.md)
 
