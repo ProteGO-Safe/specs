@@ -29,3 +29,4 @@ Jakub Rękas            | [jakubrekas1](https://github.com/jakubrekas1)         
 Mateusz Andruszko      | [mateuszandruszko](https://github.com/mateuszandruszko)   | web
 Michał Poteralski      | [MikeSPtr](https://github.com/MikeSPtr)                   | android
 Oleksandr Katrych      | [OKatrych](https://github.com/OKatrych)                   | android
+Wojciech Brydak        | [OKatrych](https://github.com/wbrydak)                    | specs
