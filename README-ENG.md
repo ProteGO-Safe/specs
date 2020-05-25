@@ -2,8 +2,6 @@
 
 ## ToC
 
-- [ProteGO Safe App](#protego-safe-app)
-- [ToC](#toc)
 - [Introduction](#introduction)
 - [SARS-CoV-2 infection risk groups](#sars-cov-2-infection-risk-groups)
 - [Anonymity and security](#anonymity-and-security)
