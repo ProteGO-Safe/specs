@@ -49,7 +49,11 @@ Then the application will display further messages (including the precise phone 
 
 ## SARS-CoV-2 infection risk groups
 
-Every user after turning on the application can check his personalized status: - Green – low-risk group – user can freely walk out, maintaining regulations in place and basic prevention. - Orange – medium-risk group – Risk assessment or potential contact with infected person implicate the need for self-observation - Red – high-risk group – one needs to contact GIS or their doctor.
+Every user after turning on the application can check his personalized status:
+
+- Green – low-risk group – user can freely walk out, maintaining regulations in place and basic prevention.
+- Orange – medium-risk group – Risk assessment or potential contact with infected person implicate the need for self-observation
+- Red – high-risk group – one needs to contact GIS or their doctor.
 
 ## Anonymity and security
 
