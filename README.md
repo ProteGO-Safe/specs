@@ -13,6 +13,8 @@
 11. [Chcę pomóc, zgłosić błąd, mam pomysł](CONTRIBUTING.md)
 
 ## Wprowadzenie 
+English version: https://github.com/ProteGO-Safe/specs/blob/master/README-ENG.md
+
 Celem aplikacji mobilnej ProteGO Safe jest dostarczenie narzędzia asystującego i chroniącego użytkownika i jego bliskich przed rozprzestrzenianiem się COVID-19, a docelowo także pomoc w przejściu z ogólnopolskiego lockdownu do selektywnej kwarantanny osób, które były narażone na ryzyko zakażenia COVID-19.
 
 Od 13.03.2020 trzy zespoły: ProteGO (bluetooth tracing), SafeSafe (diagnostyka i profilaktyka) i Sigma Connectivity (bluetooth tracing) tworzyły swoje rozwiązania dla aplikacji mobilnych, które w założeniu miały przyspieszyć ten proces. Ministerstwo Cyfryzacji połączyło te zespoły i nadało nową nazwę dla aplikacji - ProteGO Safe. Aplikacja przygotowywana jest dla Głównego Inspektora Sanitarnego, który ma największe kompetencje w specyfikowaniu założeń projektowych tak, aby aplikacja stanowiła efektywne narzędzie w walce z pandemią COVID-19. Minister Cyfryzacji i GovTech Polska z uwagi na swoje doświadczenie pełnią nadzór nad pracami projektowymi.
