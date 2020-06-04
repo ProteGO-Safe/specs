@@ -1,6 +1,6 @@
-## Lista osób które podpisały [oświadczenie o udzieleniu licencji](DISCLAIMER.pdf) i wprowadziły zmiany w projekcie:
+## List of people, who have signed [the licensing agreement](DISCLAIMER.pdf) and have contributed to the project:
 
-| Imię i nazwisko     | GitHub ID                                               | Komponenty     |
+| Name                | GitHub ID                                               | Components     |
 | ------------------- | ------------------------------------------------------- | -------------- |
 | Jakub Lipiński      | [jakublipinski](https://github.com/jakublipinski)       | backend, specs |
 | Adam Dobrawy        | [ad-m](https://github.com/ad-m)                         | specs          |
