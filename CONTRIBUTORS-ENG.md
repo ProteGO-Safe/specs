@@ -1,4 +1,4 @@
-## List of people, who have signed [the licensing agreement](CONTRIBUTING.md#Oświadczenie-o-udzieleniu-licencji) and have contributed to the project:
+## List of people, who have signed [the licensing agreement](DISCLAIMER.pdf) and have contributed to the project:
 
 | Name                | GitHub ID                                               | Components     |
 | ------------------- | ------------------------------------------------------- | -------------- |
