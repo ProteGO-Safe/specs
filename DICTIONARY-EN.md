@@ -1,18 +1,18 @@
 ### End User
 
-A natural person bearing full legal capacity, who have installed the app, accepted its Terms and Conditions and its Privacy Policy and who is actively using ProteGO Safe
+A natural person bearing full legal capacity, who have installed the app, accepted its Terms and Conditions and its Privacy Policy and who is actively using ProteGO Safe.
 
 ### Infected User
 
-End user who is an Infected Person and has been verified in ProteGO Safe using the PIN Code provided to him by the Contact Center
+End user who is an Infected Person and has been verified in ProteGO Safe using the PIN Code provided to him by the Contact Center.
 
 ### Contact Center
 
-Entity informing about one's COVID-19 test result via phone call, supplying App Users with PIN Codes and providing one's with up-to-date information about COVID-19
+Entity informing about one's COVID-19 test result via phone call, supplying App Users with PIN Codes and providing one's with up-to-date information about COVID-19.
 
 ### PIN Code
 
-Randomly generated and expiring after 30 minutes alphanumeric password issued by the  Contact Center consultant to the User who is an Infected Person. PIN Code can be entered in the ProteGO App in order to anonymously confirm, that this device belongs to an Infected Person and to initiate the process of Threat Risk assessment and user notification as a part of Coronavirus Exposure
+Randomly generated and expiring after 30 minutes alphanumeric password issued by the  Contact Center consultant to the User who is an Infected Person. PIN Code can be entered in the ProteGO App in order to anonymously confirm, that this device belongs to an Infected Person and to initiate the process of Threat Risk assessment and user notification as a part of Coronavirus Exposure.
 
 ### Diagnosis Key
 
@@ -20,7 +20,7 @@ Set of Daily Keys downloaded by the End Users, containing anonymous data initial
 
 ### Temporal Identificators
 
-Random, temporary (10 minute) alphanumeric identificators broadcasted via the Bluetoooth module
+Random, temporary (10 minute) alphanumeric identificators broadcasted via the Bluetoooth module.
 
 ### Threat Level
 
@@ -28,16 +28,16 @@ Number between 1-8 assigned to each of the past 14 Daily Keys (days) uploaded to
 
 ### Threat Risk
 
-Number between 0-4096 describing the potential risk of catching an infection from the Infected User
+Number between 0-4096 describing the potential risk of catching an infection from the Infected User.
 
 ### Risk Assessment Algorithm
 
-Model responsible for calculating the Threat Risk, taking into account: the duration of the meeting, time that has passed since the meeting, average strength of Bluetooth signal (adequate to the distance between the devices) and Threat Level determined for the Infected User
+Model responsible for calculating the Threat Risk, taking into account: the duration of the meeting, time that has passed since the meeting, average strength of Bluetooth signal (adequate to the distance between the devices) and Threat Level determined for the Infected User.
 
 
 ### Coronavirus Exposure
 
-contact between the End User and the Infected, confirmed by the Risk assessment Algorithm
+Contact between the End User and the Infected, confirmed by the Risk assessment Algorithm.
 
 ### Exposure Notification (EN) API or Analytical Module
 
@@ -50,15 +50,15 @@ Natural person, who was tested positive for COVID-19.
 
 ### Risk Configuration
 
-Certain settings and parametrization of the Risk assessment Algorithm
+Certain settings and parametrization of the Risk assessment Algorithm.
 
 ### Device
 
-Electronic device used by the User to gain access to the ProteGO Safe (tablet, smartphone, etc.) with active Bluetooth module, Android OS 5.0 or higher with access to Google Play, or with iOS version not lower than 13.5 with access to the App Store. Analytical Module will be working only on Devices with Android 6.0 supporting BLE or higher or with iOS not lower than 13.5 
+Electronic device used by the User to gain access to the ProteGO Safe (tablet, smartphone, etc.) with active Bluetooth module, Android OS 5.0 or higher with access to Google Play, or with iOS version not lower than 13.5 with access to the App Store. Analytical Module will be working only on Devices with Android 6.0 supporting BLE or higher or with iOS not lower than 13.5.
 
 ### ProteGO Safe server
 
-Cloud infrastructure maintained by the National Cloud Operator, user for providing the Diagnosis Keys to the Users' Devices. Diagnostic Keys are not stored on the ProteGO Safe Server
+Cloud infrastructure maintained by the National Cloud Operator, user for providing the Diagnosis Keys to the Users' Devices. Diagnostic Keys are not stored on the ProteGO Safe Server.
 
 ### Progressive Web App (PWA)
 
