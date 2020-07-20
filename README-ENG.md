@@ -9,7 +9,7 @@
 - [[done] Version 2.0 functionalities scope](#done-version-20-functionalities-scope)
 - [[done] Version 3.0 functionalities scope](#done-version-30-functionalities-scope)
 - [[in progress] Version 4.0 functionalities scope](#in-progress-version-40-functionalities-scope)
-- [Security Tests](#security-tests)
+- [Security Reports](#security-reports)
 - [FAQ](#faq)
 - [I want to help, report a bug, or have an idea](#i-want-to-help-report-a-bug-or-have-an-idea)
 - [ProteGO Safe and it’s documentation is licensed under](#protego-safe-and-its-documentation-is-licensed-under)
