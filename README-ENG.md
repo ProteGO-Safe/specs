@@ -9,6 +9,7 @@
 - [[done] Version 2.0 functionalities scope](#done-version-20-functionalities-scope)
 - [[done] Version 3.0 functionalities scope](#done-version-30-functionalities-scope)
 - [[in progress] Version 4.0 functionalities scope](#in-progress-version-40-functionalities-scope)
+- [Security Tests](#security-tests)
 - [FAQ](#faq)
 - [I want to help, report a bug, or have an idea](#i-want-to-help-report-a-bug-or-have-an-idea)
 - [ProteGO Safe and it’s documentation is licensed under](#protego-safe-and-its-documentation-is-licensed-under)
@@ -110,6 +111,9 @@ The OpenTrace module scans the surroundings to detect other users and saves data
 Version 4.0 is based on the implementation of Exposure Notification API developed by Google and Apple (G + A) in place of the previously used OpenTrace.
 
 The scope of functionality for version 4.0: - The user downloads the application or updates it to version 4.0 using the G + A API. - According to the requirements for using the API: the user’s device continuously broadcasts temporary identifiers (TemporaryExposureKey), which are taken from the previously generated user pool of keys, changed after a specified time. Simultaneously it’s listening for identifiers issued by other devices. - All identifiers are generated in a way that prevents them from being associated with a specific device or user. - Contact details are deleted from the user’s device after 14 days [parameter]. - The application at least once a day downloads the identifiers of users positively verified by the Chief Sanitary Inspectorate as infected and compares them with the identifiers stored on the user’s device, conducting their analysis and assessment of contact risk if necessary. - In case of a prolonged absence of the end-user, after turning on the application, it downloads all not previously obtained ‘infected’ DiagnosedKeys from the last 2 weeks. - The analysis of direct contact data is only carried out locally on the end-user’s device. - If contact with the patient is detected and the strength of the contact is assessed, the user receives an appropriate push notification. - Depending on the category to which a given contact will be assigned, the user receives an appropriate push notification.
+
+## Security reports
+- [Securitum](https://github.com/ProteGO-Safe/specs/blob/audits/audits/SECURITUM_Raport_z_testow_bezpieczenstwa_20200720-PL.pdf)
 
 ## FAQ
 
