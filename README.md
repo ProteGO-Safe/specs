@@ -9,8 +9,9 @@
 6. [Zakres funkcjonalności wersji 2.0](#wykonana-zakres-funkcjonalności-wersji-20)
 7. [Zakres funkcjonalności wersji 3.0](#wykonana-zakres-funkcjonalności-wersji-30)
 9. [Zakres funkcjonalności wersji 4.0](#w-trakcie-zakres-funkcjonalności-wersji-40)
-10. [Najczęściej zadawane pytania](FAQ.md)
-11. [Chcę pomóc, zgłosić błąd, mam pomysł](CONTRIBUTING.md)
+10. [Testy bezpieczeństwa](#testy-bezpieczeństwa)
+11. [Najczęściej zadawane pytania](FAQ.md)
+12. [Chcę pomóc, zgłosić błąd, mam pomysł](CONTRIBUTING.md)
 
 ## Wprowadzenie 
 English version: https://github.com/ProteGO-Safe/specs/blob/master/README-ENG.md
@@ -119,6 +120,9 @@ Zakres funkcjonalności dla wersji 4.0:
 - Analiza danych dotyczących bezpośredniości kontaktu przeprowadzana jest jedynie lokalnie na urządzeniu użytkownika końcowego.
 - W przypadku wykrycia kontaktu z chorym i ocenie siły tego kontaktu, użytkownik otrzymuje odpowiednie powiadomienie push.
 - W zależności od tego, do jakiej kategorii dany kontakt zostanie zakwalifikowany, użytkownik otrzymuje odpowiednie powiadomienie push.
+
+## Testy bezpieczeństwa
+- [Securitum](https://github.com/ProteGO-Safe/specs/blob/audits/audits/SECURITUM_Raport_z_testow_bezpieczenstwa_20200720-PL.pdf)
 
 ## ProteGO Safe and it's documentation is licensed under
 Kod aplikacji jest publicznie dostępny na znanej i otwartej licencji GPL-3.0. Link do repozytorium GitHub: https://github.com/ProteGO-Safe
