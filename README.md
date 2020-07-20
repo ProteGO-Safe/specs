@@ -122,7 +122,7 @@ Zakres funkcjonalności dla wersji 4.0:
 - W zależności od tego, do jakiej kategorii dany kontakt zostanie zakwalifikowany, użytkownik otrzymuje odpowiednie powiadomienie push.
 
 ## Testy bezpieczeństwa
-- [Securitum](https://github.com/ProteGO-Safe/specs/blob/audits/audits/SECURITUM_Raport_z_testow_bezpieczenstwa_20200720-PL.pdf)
+- [Securitum](audits/SECURITUM_Raport_z_testow_bezpieczenstwa_20200720-PL.pdf)
 
 ## ProteGO Safe and it's documentation is licensed under
 Kod aplikacji jest publicznie dostępny na znanej i otwartej licencji GPL-3.0. Link do repozytorium GitHub: https://github.com/ProteGO-Safe
