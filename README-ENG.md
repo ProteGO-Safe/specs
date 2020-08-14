@@ -74,7 +74,7 @@ The project is being developed at the request of Ministry of Digital Affairs, by
 
 Description of the Application versions can be found below:
 
-## [done] Version 2.0 functionalities scope
+## Version 2.0 functionalities scope
 
 - The User anonymously, without providing any data or enabling any identification, installs the Application on the device with the Android and iOS operating system (waiting for publication),
 
@@ -96,7 +96,7 @@ Description of the Application versions can be found below:
 
 Scope: - purposeful and desirable lack of synchronization with Google Analytics. - lack of in-app user registration based on the phone number. - data from modules: metrics, risk assessment, and health journal are saved locally on the device.
 
-## [done] Version 3.0 functionalities scope
+## Version 3.0 functionalities scope
 
 The user downloads or updates ProteGO Safe 3.0 with OpenTrace module, there is no possibility (and no view) to provide the phone number (user does not provide the phone number in the app – we’re not collecting this information in any form). The server grants the application (not the phone number) UID, an anonymized, unique number of this installation (app) – with UID it communicates with the app. For each UID backend generates the TempID (saves on device arrays with the list of TempID numbers for 2 weeks ahead – the app switches TempID every 15 minutes). TempIDs are used to anonymize users in the tracing module (Bluetooth contact).
 
@@ -106,11 +106,34 @@ The Bluetooth module is not working if the app is closed. The OpenTrace module e
 
 The OpenTrace module scans the surroundings to detect other users and saves data: timestamp, msg (TempID), Bluetooth signal strength. This data is stored exclusively in the device’s local memory.
 
-## [in progress] Version 4.0 functionalities scope
+## Version 4.0 functionalities scope [current version]
 
 Version 4.0 is based on the implementation of Exposure Notification API developed by Google and Apple (G + A) in place of the previously used OpenTrace.
 
-The scope of functionality for version 4.0: - The user downloads the application or updates it to version 4.0 using the G + A API. - According to the requirements for using the API: the user’s device continuously broadcasts temporary identifiers (TemporaryExposureKey), which are taken from the previously generated user pool of keys, changed after a specified time. Simultaneously it’s listening for identifiers issued by other devices. - All identifiers are generated in a way that prevents them from being associated with a specific device or user. - Contact details are deleted from the user’s device after 14 days [parameter]. - The application at least once a day downloads the identifiers of users positively verified by the Chief Sanitary Inspectorate as infected and compares them with the identifiers stored on the user’s device, conducting their analysis and assessment of contact risk if necessary. - In case of a prolonged absence of the end-user, after turning on the application, it downloads all not previously obtained ‘infected’ DiagnosedKeys from the last 2 weeks. - The analysis of direct contact data is only carried out locally on the end-user’s device. - If contact with the patient is detected and the strength of the contact is assessed, the user receives an appropriate push notification. - Depending on the category to which a given contact will be assigned, the user receives an appropriate push notification.
+The scope of functionality for version 4.0: 
+- The user downloads the application or updates it to version 4.0 using the G + A API. 
+- According to the requirements for using the API: the user’s device continuously broadcasts temporary identifiers (TemporaryExposureKey), which are taken from the previously generated user pool of keys, changed after a specified time. Simultaneously it’s listening for identifiers issued by other devices. 
+- All identifiers are generated in a way that prevents them from being associated with a specific device or user. 
+- Contact details are deleted from the user’s device after 14 days [parameter]. 
+- The application at least once a day downloads the identifiers of users positively verified by the Chief Sanitary Inspectorate as infected and compares them with the identifiers stored on the user’s device, conducting their analysis and assessment of contact risk if necessary. 
+- In case of a prolonged absence of the end-user, after turning on the application, it downloads all not previously obtained ‘infected’ DiagnosedKeys from the last 2 weeks. 
+- The analysis of direct contact data is only carried out locally on the end-user’s device. 
+- If contact with the patient is detected and the strength of the contact is assessed, the user receives an appropriate push notification. 
+- Depending on the category to which a given contact will be assigned, the user receives an appropriate push notification.
+
+## Application roadmap
+
+Application is live since June 2020 with full support of Exposure Notification API from Googla and Apple. However, there is still need for further development and maintenence of the application. Below is the list of planned changes, improvements and new features:
+- [4.3.X]: Support for other languages (EN, UA) with possibility to add (propose) new translations by the community, Android app update to EN API 1.6, Google based server update to follow changes required by EN API 1.6
+- [4.4.X]: Possiblity to report bug/issue in the application, Kill Switch feature (blocking app after pandemic is over), UX/UI changes to improve usability
+- [4.5.X]: Interoperability - support for EU solution for exchanging TEKs with other countries through the [Fedaration Gateway solution](https://github.com/eu-federation-gateway-service), especially with DE [Corona Warn App](https://www.coronawarn.app/en/), Huawei no GMS phones support (using Core Contact Shield SDK)
+
+
+## Interoperability
+
+As most of countries lower their restrictions and exit lock-down there is increase in people traveling to other countries. It is important to support these people in solution that works not only in their home country but is compatible with applications introduced in other countries, too. Thanks to Exposure Notification API that is a most preferred technical solution for contact tracing in most of EU countries it is possible to make all applications that use it to co-exist and recognize contacts with positivly diagnosed people from other countries. An eHealth Network group working under European Commision is responsible for preparing technical solution that will integrate all applications using Exposure Notification API. The proposed and currently discussed option is [Fedaration Gateway](https://github.com/eu-federation-gateway-service) that will be able to share user's TEKs across the integrated countries. Discussions first of all take into account users data privacy aspects.
+
+ProteGO Safe is involved into eHealth Network group, plans to integrate with Federation Gateway and takes part in a piloting program for couple of EU countries.
 
 ## Security reports
 - [Securitum](audits/SECURITUM_Raport_z_testow_bezpieczenstwa_20200720-PL.pdf)
