@@ -20,7 +20,7 @@ The main goal of the ProteGO Safe mobile app is to provide a tool that can assis
 
 Since 13.03.2020 three teams: ProteGO (Bluetooth tracing), SafeSafe (diagnosis and prevention), and Sigma Connectivity (Bluetooth tracing) were creating their solutions for mobile apps aimed to accelerate this process. The Ministry of Digital Affairs has merged these three teams and established a new name for the app – ProteGO Safe. The app is prepared for the Chief Sanitary Inspectorate (further: GIS), which is also the personal data controller. Minister of Digital Affairs and GovTech Polska due to their experience are supervising the development work.
 
-The app is developed in compliance with principles arising from the General Data Protection Regulation (GDPR), including data minimization, privacy by design, privacy by default, accuracy, and confidentiality. Guidelines of the European Data Protection Board, European Commission, and the Toolbox developed under the eHealth Network operating at the European Commission. All parties involved pay particular attention to ensure the highest privacy standards. Adopted solutions ensure the support for the health authorities in fighting the pandemic while using the minimal set of data, necessary to accomplish that goal.
+The app is developed in compliance with principles arising from the General Data Protection Regulation (GDPR), including data minimization, privacy by design, privacy by default, accuracy, and confidentiality. Guidelines of the European Data Protection Board, European Commission, and the Toolbox developed under the eHealth Network operating at the European Commission. All parties involved pay particular attention to ensure the highest privacy standards. The whole project is fully apolitical. Adopted solutions ensure the support for the health authorities in fighting the pandemic while using the minimal set of data, necessary to accomplish that goal.
 
 The Chief Sanitary Inspector, in consultation with the Minister of Digital Affairs, decided to halt further development of the Open Trace standard model striving to distribute the system - mainly due to advanced work on the tool that will provide better coverage while maintaining the distributed model - “Privacy-Preserving Contact Tracing” prepared by the consortium of Google and Apple (with the working name “Exposure Notification”).
 
@@ -120,6 +120,7 @@ The scope of functionality for version 4.0:
 - The analysis of direct contact data is only carried out locally on the end-user’s device. 
 - If contact with the patient is detected and the strength of the contact is assessed, the user receives an appropriate push notification. 
 - Depending on the category to which a given contact will be assigned, the user receives an appropriate push notification.
+- Because of the privacy and security concens the App disables taking screenshots or screen recording/screencasting
 
 ## Application roadmap
 
