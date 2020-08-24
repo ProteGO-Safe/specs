@@ -6,11 +6,12 @@
 - [SARS-CoV-2 infection risk groups](#sars-cov-2-infection-risk-groups)
 - [Anonymity and security](#anonymity-and-security)
 - [Further principles](#further-principles)
-- [[done] Version 2.0 functionalities scope](#done-version-20-functionalities-scope)
-- [[done] Version 3.0 functionalities scope](#done-version-30-functionalities-scope)
-- [[in progress] Version 4.0 functionalities scope](#in-progress-version-40-functionalities-scope)
-- [Security Reports](#security-reports)
+- [Version 4.0 functionalities scope [current version]](#version-40-functionalities-scope-current-version)
+- [Application roadmap](#application-roadmap)
+- [Interoperability](#interoperability)
+- [Security reports](#security-reports)
 - [FAQ](#faq)
+- [Previous versions' changelog](#previous-versions-changelog)
 - [I want to help, report a bug, or have an idea](#i-want-to-help-report-a-bug-or-have-an-idea)
 - [ProteGO Safe and it’s documentation is licensed under](#protego-safe-and-its-documentation-is-licensed-under)
 
@@ -26,11 +27,11 @@ The Chief Sanitary Inspector, in consultation with the Minister of Digital Affai
 
 The ProteGO Safe team has been invited to test the Exposure Notification solution, thanks to which we can implement a solution that has been designed from the very beginning as a distributed system and thus allows us to protect the privacy of users of tracing applications based on this standard.
 
-ProteGO Safe does not require providing any personal data at any of the stages of using the Application. ProteGO Safe also does not collect personal data. All information processed by ProteGO Safe is collected and processed in such a way as to prevent users from being identified.
+ProteGO Safe does not require providing any personal data at any of the stages of using the Application. ProteGO Safe also does not collect personal data. All information processed by ProteGO Safe is collected and processed in such a way as to prevent us ers from being identified.
 
 Currently, the basic functionality of ProteGO Safe is available, which makes it possible to perform triage, i.e. self-assessment of the risk of contracting COVID-19 disease. The triage functionality is provided by the Infermedica API also used by the pacjent.gov.pl portal. This functionality is being rewritten to be a module that will work locally (offline, i.e. not via the API).
 
-The second key functionality that will be based on the Exposure Notification API enables the so-called Bluetooth tracing. If the user agrees - the application, using the built-in Bluetooth device, will announce a randomly generated, fully anonymous key, which will be replaced every 10 minutes, and simultaneously scan the environment for other phones on which the application is running, and save the history of anonymous keys to evaluate the “quality” of contacts using the Exposure Notification API developed by Google and Apple.
+The second key functionality, which is based on the Exposure Notification API enables the so-called Bluetooth tracing. If the user agrees - the application, using the built-in Bluetooth device, announces a randomly generated, fully anonymous key, which is being replaced every 10 minutes, and simultaneously scan the environment for other phones on which the application is running, and save the history of anonymous keys to evaluate the “quality” of contacts using the Exposure Notification API developed by Google and Apple.
 
 The “quality” of contacts assessment is based on configuration (parameters) provided by the local Health Authority. These parameters determine how much the final results will be impacted by: the duration of the meeting; physical distance between the devices; and how much time has passed since the contact occurred. Based on these parameters, the analytical module provided by G + A gives the result corresponding to the risk of exposure to the virus.
 
@@ -38,7 +39,7 @@ In addition to the estimated risk, information is also returned about the length
 
 These data are stored only on the devices of the Application users and are not sent to any central server, which is ensured by the Exposure Notification API developed by the Google and Apple consortium. The application deletes the data collected on the device after 14 days from the date they were saved in the Application or at any time at the user’s request (appropriate option in the settings).
 
-In the next version of the application (4.1) the functionalities related to COVID-19 prevention will be extended.
+In the next version of the application (post 4.2.X) the functionalities related to COVID-19 prevention will be extended.
 
 At the moment, since the beginning of the epidemic regardless of whether they’re using the app or not, each person diagnosed with COVID-19 disease is informed by phone about the test result by an authorized representative of the health authority. Soon, this authorized representative of the health authority, after informing about the positive result of the COVID-19 test, will also ask if the sick person has the ProteGO Safe application installed and wants to warn other people who were in its environment following the parameters set by GIS. If so, an authorized representative of the health authority proposes to the application’s user to send their Diagnosed Keys history (only the infected person - without the history of devices encountered) from the last 14 days (maximum) to the server from which the data will be sent further to the devices of the end-users of the application.
 
@@ -72,63 +73,32 @@ Distributed system: 1) Data is stored on users’ devices. All information (entr
 
 The project is being developed at the request of Ministry of Digital Affairs, by a consortium of companies: Tytani24 Sp. z o.o. (leaders), The Coders Sp. z o.o. , Webini Sp. z o.o. , Sigma Connectivity Sp. z o.o. , 25wat Sp. z o.o. , Klimas Legal, Mobile Flag, HOLDAPP supported by all willing contributors.
 
-Description of the Application versions can be found below:
-
-## Version 2.0 functionalities scope
-
-- The User anonymously, without providing any data or enabling any identification, installs the Application on the device with the Android and iOS operating system (waiting for publication),
-
-- The User opens the Application and displays information about the way it works and the necessary consents / permissions (acceptance of the Terms and the Privacy Policy).
-
-- The user completes the health record. The user completes the first risk assessment test (triage).
-
-- The user gets the first result of classification of his state of health (triage).
-
-- The user periodically receives push notifications reminding the need to complete the risk assessment test.
-
-- The application guides the user through advice and recommendations related to his state of health based on a risk assessment (triage).
-
-- The user can fill in any number of times a day: risk assessment test (triage) and health diary.
-
-- After three days, on which the user completed the risk assessment test at least once a day, the “I care for myself and loved ones” badge appears in the Application.
-
-- In the case of an iOS Application - the user must agree to “Permission to send notifications”.
-
-Scope: - purposeful and desirable lack of synchronization with Google Analytics. - lack of in-app user registration based on the phone number. - data from modules: metrics, risk assessment, and health journal are saved locally on the device.
-
-## Version 3.0 functionalities scope
-
-The user downloads or updates ProteGO Safe 3.0 with OpenTrace module, there is no possibility (and no view) to provide the phone number (user does not provide the phone number in the app – we’re not collecting this information in any form). The server grants the application (not the phone number) UID, an anonymized, unique number of this installation (app) – with UID it communicates with the app. For each UID backend generates the TempID (saves on device arrays with the list of TempID numbers for 2 weeks ahead – the app switches TempID every 15 minutes). TempIDs are used to anonymize users in the tracing module (Bluetooth contact).
-
-When the user begins to use the application he is asked to let the app to: - Android: “Using location services” (to scan for nearby devices we need permission for “Location”. In practice it’s required for using the Bluetooth module. App does not use GPS for device geolocation). - iOS: “Permission to use Bluetooth module”. After being granted these permissions, the app turns on the OpenTrace module, running in the background (only on Android system, on iOS the ability to use Bluetooth in the app that’s working “in the background” is highly restricted), also after the user leaves the app and locks the screen (as much as operating system allows it).
-
-The Bluetooth module is not working if the app is closed. The OpenTrace module emits TempID via Bluetooth. App’s TempID is rotated i.e. changed every 15 minutes, in accordance with the base that’s stored on the device – the number of codes will be established using the parameters. The frequency of downloading a new TempID list is also specified as a parameter in configuration.
-
-The OpenTrace module scans the surroundings to detect other users and saves data: timestamp, msg (TempID), Bluetooth signal strength. This data is stored exclusively in the device’s local memory.
+Description of current version and Application roadmap can be found below:
 
 ## Version 4.0 functionalities scope [current version]
 
 Version 4.0 is based on the implementation of Exposure Notification API developed by Google and Apple (G + A) in place of the previously used OpenTrace.
 
-The scope of functionality for version 4.0: 
-- The user downloads the application or updates it to version 4.0 using the G + A API. 
-- According to the requirements for using the API: the user’s device continuously broadcasts temporary identifiers (TemporaryExposureKey), which are taken from the previously generated user pool of keys, changed after a specified time. Simultaneously it’s listening for identifiers issued by other devices. 
-- All identifiers are generated in a way that prevents them from being associated with a specific device or user. 
-- Contact details are deleted from the user’s device after 14 days [parameter]. 
-- The application at least once a day downloads the identifiers of users positively verified by the Chief Sanitary Inspectorate as infected and compares them with the identifiers stored on the user’s device, conducting their analysis and assessment of contact risk if necessary. 
-- In case of a prolonged absence of the end-user, after turning on the application, it downloads all not previously obtained ‘infected’ DiagnosedKeys from the last 2 weeks. 
-- The analysis of direct contact data is only carried out locally on the end-user’s device. 
-- If contact with the patient is detected and the strength of the contact is assessed, the user receives an appropriate push notification. 
+The scope of functionality for version 4.0:
+
+- The user downloads the application or updates it to version 4.0 using the G + A API.
+- According to the requirements for using the API: the user’s device continuously broadcasts temporary identifiers (TemporaryExposureKey), which are taken from the previously generated user pool of keys, changed after a specified time. Simultaneously it’s listening for identifiers issued by other devices.
+- All identifiers are generated in a way that prevents them from being associated with a specific device or user.
+- Contact details are deleted from the user’s device after 14 days [parameter].
+- The application at least once a day downloads the identifiers of users positively verified by the Chief Sanitary Inspectorate as infected and compares them with the identifiers stored on the user’s device, conducting their analysis and assessment of contact risk if necessary.
+- In case of a prolonged absence of the end-user, after turning on the application, it downloads all not previously obtained ‘infected’ DiagnosedKeys from the last 2 weeks.
+- The analysis of direct contact data is only carried out locally on the end-user’s device.
+- If contact with the patient is detected and the strength of the contact is assessed, the user receives an appropriate push notification.
 - Depending on the category to which a given contact will be assigned, the user receives an appropriate push notification.
 - Because of the privacy and security concerns the App disables taking screenshots or screen recording/screencasting.
 
 ## Application roadmap
 
 Application is live since June 2020 with full support of Exposure Notification API from Googla and Apple. However, there is still need for further development and maintenence of the application. Below is the list of planned changes, improvements and new features:
+
 - [4.3.X]: Support for other languages (EN, UA) with possibility to add (propose) new translations by the community, Android app update to EN API 1.6, Google based server update to follow changes required by EN API 1.6
 - [4.4.X]: Possiblity to report bug/issue in the application, Kill Switch feature (blocking app after pandemic is over), UX/UI changes to improve usability
 - [4.5.X]: Interoperability - support for EU solution for exchanging TEKs with other countries through the [Fedaration Gateway solution](https://github.com/eu-federation-gateway-service), especially with DE [Corona Warn App](https://www.coronawarn.app/en/), Huawei no GMS phones support (using Core Contact Shield SDK)
-
 
 ## Interoperability
 
@@ -137,11 +107,16 @@ As most of countries lower their restrictions and exit lock-down there is increa
 ProteGO Safe is involved into eHealth Network group, plans to integrate with Federation Gateway and takes part in a piloting program for couple of EU countries.
 
 ## Security reports
+
 - [Securitum](audits/SECURITUM_Raport_z_testow_bezpieczenstwa_20200720-PL.pdf)
 
 ## FAQ
 
 The FAQ is available here: [FAQ](FAQ.md). (Polish Language version only)
+
+## Previous versions' changelog
+
+Changelogs and descriptions of previous versions are available here: [Changelog](CHANGELOG.md)
 
 ## I want to help, report a bug, or have an idea
 
