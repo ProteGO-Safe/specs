@@ -120,7 +120,7 @@ The scope of functionality for version 4.0:
 - The analysis of direct contact data is only carried out locally on the end-user’s device. 
 - If contact with the patient is detected and the strength of the contact is assessed, the user receives an appropriate push notification. 
 - Depending on the category to which a given contact will be assigned, the user receives an appropriate push notification.
-- Because of the privacy and security concens the App disables taking screenshots or screen recording/screencasting
+- Because of the privacy and security concerns the App disables taking screenshots or screen recording/screencasting.
 
 ## Application roadmap
 
