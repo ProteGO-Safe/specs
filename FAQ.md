@@ -2,11 +2,11 @@
 
 **1) W jaki sposób zapewniono, że aplikacja nie zostanie wykorzystana do śledzenia użytkoników lub ich aktywności?**
 
-ProteGO Safe nie ma modułów (funkcjonalności) umożliwiających lokalizację. Aplikacja jest budowana na podstawie otwartego źródła opublikowanego w serwisie GitHub. Zrezygnowaliśmy z funkcji analitycznych oferowanych np. przez Google Analytics. Nie zbieramy nawet informacji na temat zachowania użytkownika korzystającego z aplikacji. Analogicznie nie analizujemy jak użytkownicy korzystają ze strony https://safesafe.app. Informacje, które aplikacja przetwarza w ramach tzw. tracingu to natężenie sygnału Bluetooth urządzeń z którymi łączy się urządzenie użytkownika. Nie mamy możliwości wykorzystania tych danych do “śledzenia” tj. określania pozycji geograficznej. Nie ma możliwości ustalenia gdzie znajduje się użytkownik. W najlepszym wypadku można ustalić odległość między dwoma urządzeniami (dwoma użytkownikami). Niemniej jest to obarczone potencjalnym błędem, który wynika z urządzeń korzystających z różnej klasy modułów łączności bluetooth (niektóre urządzenia są wyższej klasy i dostarczają bardziej prawidłowe pomiary, a niektóre mniej), a także z sytuacjami losowymi (np. dwie osoby, które stoją w korku w dwóch autach obok siebie lub sąsiedzi mieszkający w bloku, których dzieli ściana).
+STOP COVID - ProteGO Safe nie ma modułów (funkcjonalności) umożliwiających lokalizację. Aplikacja jest budowana na podstawie otwartego źródła opublikowanego w serwisie GitHub. Zrezygnowaliśmy z funkcji analitycznych oferowanych np. przez Google Analytics. Nie zbieramy nawet informacji na temat zachowania użytkownika korzystającego z aplikacji. Analogicznie nie analizujemy jak użytkownicy korzystają ze strony https://safesafe.app. Informacje, które aplikacja przetwarza w ramach tzw. tracingu to natężenie sygnału Bluetooth urządzeń z którymi łączy się urządzenie użytkownika. Nie mamy możliwości wykorzystania tych danych do “śledzenia” tj. określania pozycji geograficznej. Nie ma możliwości ustalenia gdzie znajduje się użytkownik. W najlepszym wypadku można ustalić odległość między dwoma urządzeniami (dwoma użytkownikami). Niemniej jest to obarczone potencjalnym błędem, który wynika z urządzeń korzystających z różnej klasy modułów łączności bluetooth (niektóre urządzenia są wyższej klasy i dostarczają bardziej prawidłowe pomiary, a niektóre mniej), a także z sytuacjami losowymi (np. dwie osoby, które stoją w korku w dwóch autach obok siebie lub sąsiedzi mieszkający w bloku, których dzieli ściana).
 
 **2) Czy aplikacja wykorzystuje dane geolokalizacyjne?** 
 
-Nie. Aplikacja nie wykorzystuje ani nie zapisuje żadnych danych geolokalizacyjnych. W urządzeniach klasy Android użytkownicy mogą być pytani o “zgodę na lokalizację”, niemniej dotyczy ona wykorzystania modułu Bluetooth w urządzeniu. ProteGO Safe nie przetwarza danych geolokalizacyjnych. 
+Nie. Aplikacja nie wykorzystuje ani nie zapisuje żadnych danych geolokalizacyjnych. W urządzeniach klasy Android użytkownicy mogą być pytani o “zgodę na lokalizację”, niemniej dotyczy ona wykorzystania modułu Bluetooth w urządzeniu. STOP COVID - ProteGO Safe nie przetwarza danych geolokalizacyjnych. 
 
 **3) Jakie zastosowano zabezpieczenia, aby zapewnić, że nie dojdzie do zbierania danych osób na dużą skalę teraz i w przyszłości?** 
 
@@ -14,7 +14,7 @@ Nie przetwarzamy danych szczególnej kategorii (wszystkie dane zapisywane w Dzie
 
 **5) Jak zapewniono, że informacje o osobach niezakażonych nie będą ujawniane?**
 
-Aplikacja zbiera anonimowe dane urządzeń ale nie wysyła ich na serwer bez pozwolenia użytkownika. Dane można wysłać dopiero po potwierdzeniu zmiany statusu wynikającej z medycznego testu na Covid-19. Innymi słowy ani Ministerstwo Cyfryzacji, ani Główny Inspektor Sanitarny a nawet operatorzy systemu ProteGO Safe nie wiedzą z jakimi dokładnie użytkownikami zetknęli się zdrowi użytkownicy aplikacji.
+Aplikacja zbiera anonimowe dane urządzeń ale nie wysyła ich na serwer bez pozwolenia użytkownika. Dane można wysłać dopiero po potwierdzeniu zmiany statusu wynikającej z medycznego testu na Covid-19. Innymi słowy ani Ministerstwo Cyfryzacji, ani Główny Inspektor Sanitarny a nawet operatorzy systemu STOP COVID - ProteGO Safe nie wiedzą z jakimi dokładnie użytkownikami zetknęli się zdrowi użytkownicy aplikacji.
 
 **6) W jaki sposób ustalono zakres danych niezbędnych do zbierania w aplikacji, tak że jest on ograniczony wyłącznie do niezbędnych do walki z pandemią?**
 
@@ -38,7 +38,7 @@ Tak. Aplikacja umożliwia usunięcie wszystkich danych do niej wprowadzonych.
 
 **11) Czy aplikacja zostanie dezaktywowana po zakończeniu obecnego kryzysu?**
 
-Tak. W kolejnych wersjach aplikacji taka funkcjonalność zostanie dodana w ProteGO Safe. Przypominamy również, że aplikacja nie jest obowiązkowa i użytkownik może w każdym momencie podjąc decyzję o jej usunięciu z urządzenia.
+Tak. W kolejnych wersjach aplikacji taka funkcjonalność zostanie dodana w STOP COVID - ProteGO Safe. Przypominamy również, że aplikacja nie jest obowiązkowa i użytkownik może w każdym momencie podjąc decyzję o jej usunięciu z urządzenia.
 
 **12) Jakie dane i kiedy są przesyłane na serwer? Kto utrzymuje ten serwer? Kto ma dostęp do danych na serwerze? Komu są przekazywane? Jak długo będą przechowywane? Czy są zanonimizowane?**
 
@@ -46,7 +46,7 @@ Na serwer mogą zostać przesłane jedynie dane zgromadzone przez osoby zweryfik
 
 **13) Jakie zastosowano zabezpieczenia aplikacji? Co zapewnia, że aplikacja jest bezpieczna, a osoby niepożądane nie uzyskają dostępu do danych?**
 
-ProteGO Safe to dostępna publicznie w internecie aplikacja uruchamiająca się wyłącznie lokalnie w pamięci urządzenia użytkownika. Tam też składuje wszystkie dane. Niezależnie od tego publiczna strona dostarczająca użytkownikowi taki program, jest zabezpieczona przed zapisem przez niepowołane osoby oraz chroniona przez wiodący system anty DDoS i WAF firmy Cloudflare. Hostingiem który dostarcza treści chronione przez Cloudflare jest nowoczesna usługa Firebase Hosting firmy Google. Zabezpieczamy również cały proces wytwarzania aplikacji web i natywnych aplikacji mobilnych kontrolując listę osób z uprawnieniami do ostatecznej publikacji nowych wersji. Kod źródłowy aplikacji jest sprawdzany przez skanery korzystające z publicznych baz danych podatności oprogramowania i jego komponentów. W procesie korzystamy również z metody peer review i publicznego audytu społecznego otwartego kodu aplikacji poprzez platformę GitHub.
+STOP COVID - ProteGO Safe to dostępna publicznie w internecie aplikacja uruchamiająca się wyłącznie lokalnie w pamięci urządzenia użytkownika. Tam też składuje wszystkie dane. Niezależnie od tego publiczna strona dostarczająca użytkownikowi taki program, jest zabezpieczona przed zapisem przez niepowołane osoby oraz chroniona przez wiodący system anty DDoS i WAF firmy Cloudflare. Hostingiem który dostarcza treści chronione przez Cloudflare jest nowoczesna usługa Firebase Hosting firmy Google. Zabezpieczamy również cały proces wytwarzania aplikacji web i natywnych aplikacji mobilnych kontrolując listę osób z uprawnieniami do ostatecznej publikacji nowych wersji. Kod źródłowy aplikacji jest sprawdzany przez skanery korzystające z publicznych baz danych podatności oprogramowania i jego komponentów. W procesie korzystamy również z metody peer review i publicznego audytu społecznego otwartego kodu aplikacji poprzez platformę GitHub.
 
 **14) Jakie testy aplikacji zostały przeprowadzone, w szczególności w zakresie cyberbezpieczeństwa?**
 
@@ -54,8 +54,8 @@ Prowadzimy ciągłe testy za pomocą tzw. statycznej analizy kodu. Zarówno za p
 
 **15) Z kim były konsultowane założenia/funkcjonalności systemu?**
 
-Założenia aplikacji są na bieżąco konsultowane z: GIS, MC i MZ, środowiskiem zgromadzonym wokół inicjatyw SafeSafe-app (pierwotnie koronazglowy.com) i ProteGO Safe (safesafe.app), lekarzami, epidemiologami i specjalistami od technologii, a także z Prezesem Urzędu Ochrony Danych Osobowych oraz podczas spotkań sieci eHealth Komisji Europejskiej. Czekamy również na audyty zewnętrznych podmiotów, oraz - przede wszystkim - społeczności i NGO'sów. 
+Założenia aplikacji są na bieżąco konsultowane z: GIS, MC i MZ, środowiskiem zgromadzonym wokół inicjatyw SafeSafe-app (pierwotnie koronazglowy.com) i STOP COVID - ProteGO Safe (safesafe.app), lekarzami, epidemiologami i specjalistami od technologii, a także z Prezesem Urzędu Ochrony Danych Osobowych oraz podczas spotkań sieci eHealth Komisji Europejskiej. Czekamy również na audyty zewnętrznych podmiotów, oraz - przede wszystkim - społeczności i NGO'sów. 
 
-**16) Czy ProteGO Safe umożliwi inwigilację osób chorych?**
+**16) Czy STOP COVID - ProteGO Safe umożliwi inwigilację osób chorych?**
 
 Nie. Rozdzielenie systemów (serwerów backendowych), które analizują zanonimizowane dane realizowane jest właśnie po to, aby uniknąć przetwarzania danych na jednym centralnym systemie (serwerze). Przetwarzanie danych “w jednym miejscu” budziłoby bowiem uzasadnione i słuszne wątpliwości związane z prywatnością użytkowników. Obecne rozwiązanie, stara się maksymalnie ograniczyć dostęp do danych stosując zasadę adekwatności i minimalizacji, które zostały określone w RODO.

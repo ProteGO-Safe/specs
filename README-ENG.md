@@ -1,4 +1,4 @@
-## ProteGO Safe App
+## STOP COVID - ProteGO Safe App
 
 ## ToC
 
@@ -12,23 +12,23 @@
 - [Security Reports](#security-reports)
 - [FAQ](#faq)
 - [I want to help, report a bug, or have an idea](#i-want-to-help-report-a-bug-or-have-an-idea)
-- [ProteGO Safe and it’s documentation is licensed under](#protego-safe-and-its-documentation-is-licensed-under)
+- [STOP COVID - ProteGO Safe and it’s documentation is licensed under](#protego-safe-and-its-documentation-is-licensed-under)
 
 ## Introduction
 
-The main goal of the ProteGO Safe mobile app is to provide a tool that can assist and protect users and their families from COVID-19 spread, and ultimately ease the transition between nation-wide lockdown and selective quarantine of people, who were exposed to the risk of COVID-19 infection.
+The main goal of the STOP COVID - ProteGO Safe mobile app is to provide a tool that can assist and protect users and their families from COVID-19 spread, and ultimately ease the transition between nation-wide lockdown and selective quarantine of people, who were exposed to the risk of COVID-19 infection.
 
-Since 13.03.2020 three teams: ProteGO (Bluetooth tracing), SafeSafe (diagnosis and prevention), and Sigma Connectivity (Bluetooth tracing) were creating their solutions for mobile apps aimed to accelerate this process. The Ministry of Digital Affairs has merged these three teams and established a new name for the app – ProteGO Safe. The app is prepared for the Chief Sanitary Inspectorate (further: GIS), which is also the personal data controller. Minister of Digital Affairs and GovTech Polska due to their experience are supervising the development work.
+Since 13.03.2020 three teams: ProteGO (Bluetooth tracing), SafeSafe (diagnosis and prevention), and Sigma Connectivity (Bluetooth tracing) were creating their solutions for mobile apps aimed to accelerate this process. The Ministry of Digital Affairs has merged these three teams and established a new name for the app – STOP COVID - ProteGO Safe. The app is prepared for the Chief Sanitary Inspectorate (further: GIS), which is also the personal data controller. Minister of Digital Affairs and GovTech Polska due to their experience are supervising the development work.
 
 The app is developed in compliance with principles arising from the General Data Protection Regulation (GDPR), including data minimization, privacy by design, privacy by default, accuracy, and confidentiality. Guidelines of the European Data Protection Board, European Commission, and the Toolbox developed under the eHealth Network operating at the European Commission. All parties involved pay particular attention to ensure the highest privacy standards. Adopted solutions ensure the support for the health authorities in fighting the pandemic while using the minimal set of data, necessary to accomplish that goal.
 
 The Chief Sanitary Inspector, in consultation with the Minister of Digital Affairs, decided to halt further development of the Open Trace standard model striving to distribute the system - mainly due to advanced work on the tool that will provide better coverage while maintaining the distributed model - “Privacy-Preserving Contact Tracing” prepared by the consortium of Google and Apple (with the working name “Exposure Notification”).
 
-The ProteGO Safe team has been invited to test the Exposure Notification solution, thanks to which we can implement a solution that has been designed from the very beginning as a distributed system and thus allows us to protect the privacy of users of tracing applications based on this standard.
+The STOP COVID - ProteGO Safe team has been invited to test the Exposure Notification solution, thanks to which we can implement a solution that has been designed from the very beginning as a distributed system and thus allows us to protect the privacy of users of tracing applications based on this standard.
 
-ProteGO Safe does not require providing any personal data at any of the stages of using the Application. ProteGO Safe also does not collect personal data. All information processed by ProteGO Safe is collected and processed in such a way as to prevent users from being identified.
+STOP COVID - ProteGO Safe does not require providing any personal data at any of the stages of using the Application. STOP COVID - ProteGO Safe also does not collect personal data. All information processed by STOP COVID - ProteGO Safe is collected and processed in such a way as to prevent users from being identified.
 
-Currently, the basic functionality of ProteGO Safe is available, which makes it possible to perform triage, i.e. self-assessment of the risk of contracting COVID-19 disease. The triage functionality is provided by the Infermedica API also used by the pacjent.gov.pl portal. This functionality is being rewritten to be a module that will work locally (offline, i.e. not via the API).
+Currently, the basic functionality of STOP COVID - ProteGO Safe is available, which makes it possible to perform triage, i.e. self-assessment of the risk of contracting COVID-19 disease. The triage functionality is provided by the Infermedica API also used by the pacjent.gov.pl portal. This functionality is being rewritten to be a module that will work locally (offline, i.e. not via the API).
 
 The second key functionality that will be based on the Exposure Notification API enables the so-called Bluetooth tracing. If the user agrees - the application, using the built-in Bluetooth device, will announce a randomly generated, fully anonymous key, which will be replaced every 10 minutes, and simultaneously scan the environment for other phones on which the application is running, and save the history of anonymous keys to evaluate the “quality” of contacts using the Exposure Notification API developed by Google and Apple.
 
@@ -40,9 +40,9 @@ These data are stored only on the devices of the Application users and are not s
 
 In the next version of the application (4.1) the functionalities related to COVID-19 prevention will be extended.
 
-At the moment, since the beginning of the epidemic regardless of whether they’re using the app or not, each person diagnosed with COVID-19 disease is informed by phone about the test result by an authorized representative of the health authority. Soon, this authorized representative of the health authority, after informing about the positive result of the COVID-19 test, will also ask if the sick person has the ProteGO Safe application installed and wants to warn other people who were in its environment following the parameters set by GIS. If so, an authorized representative of the health authority proposes to the application’s user to send their Diagnosed Keys history (only the infected person - without the history of devices encountered) from the last 14 days (maximum) to the server from which the data will be sent further to the devices of the end-users of the application.
+At the moment, since the beginning of the epidemic regardless of whether they’re using the app or not, each person diagnosed with COVID-19 disease is informed by phone about the test result by an authorized representative of the health authority. Soon, this authorized representative of the health authority, after informing about the positive result of the COVID-19 test, will also ask if the sick person has the STOP COVID - ProteGO Safe application installed and wants to warn other people who were in its environment following the parameters set by GIS. If so, an authorized representative of the health authority proposes to the application’s user to send their Diagnosed Keys history (only the infected person - without the history of devices encountered) from the last 14 days (maximum) to the server from which the data will be sent further to the devices of the end-users of the application.
 
-Thanks to this, after receiving an anonymous DiagnosedKeys package on the end user’s device, the process of analyzing encountered devices with the ProteGO Safe application installed will be initiated. The analytical module will first check whether the application has “seen” itself with an infected, DiagnosedKey.
+Thanks to this, after receiving an anonymous DiagnosedKeys package on the end user’s device, the process of analyzing encountered devices with the STOP COVID - ProteGO Safe application installed will be initiated. The analytical module will first check whether the application has “seen” itself with an infected, DiagnosedKey.
 
 If such contact has occurred, the application based on meeting time, the distance between devices, as well as other factors indicated in the GIS guidelines, will decide whether the end-user of the application should receive information about the potential threat of an exposure.
 
@@ -58,17 +58,17 @@ Every user after turning on the application can check his personalized status:
 
 ## Anonymity and security
 
-How will ProteGO Safe version 4.0 based on Exposure Notifications ensure user’s anonymity and data security?
+How will STOP COVID - ProteGO Safe version 4.0 based on Exposure Notifications ensure user’s anonymity and data security?
 
-Distributed system: 1) Data is stored on users’ devices. All information (entries in the Health Journal), as well as the history of devices encountered are stored on users’ devices and analyzed there. 2) Data entered into ProteGO Safe allows users to remain anonymous. It is not necessary to register or provide any identifying information. In addition to installing the application, the user only provides his nickname, which can be any, and its only purpose is user comfort. 3) Only people who are medically verified as patients with COVID-19 will be able to initiate the process of sending their Diagnosed Keys (prior to this, Contact Center has to reach the Patient to get a consent to enable appropriate export gateway for data upload - it's required - this consent is made voluntarily by a sick person, thus Contact Center has no means nor rights to do so on behalf of the patient by itself) so that they can send a warning to other users.
+Distributed system: 1) Data is stored on users’ devices. All information (entries in the Health Journal), as well as the history of devices encountered are stored on users’ devices and analyzed there. 2) Data entered into STOP COVID - ProteGO Safe allows users to remain anonymous. It is not necessary to register or provide any identifying information. In addition to installing the application, the user only provides his nickname, which can be any, and its only purpose is user comfort. 3) Only people who are medically verified as patients with COVID-19 will be able to initiate the process of sending their Diagnosed Keys (prior to this, Contact Center has to reach the Patient to get a consent to enable appropriate export gateway for data upload - it's required - this consent is made voluntarily by a sick person, thus Contact Center has no means nor rights to do so on behalf of the patient by itself) so that they can send a warning to other users.
 
 ## Further principles
 
-- The mobile phone numbers of people diagnosed with COVID-19 disease are processed in Poland by authorized Health Authorities - therefore there is no need to involve the ProteGO Safe application in their acquisition and storage.
+- The mobile phone numbers of people diagnosed with COVID-19 disease are processed in Poland by authorized Health Authorities - therefore there is no need to involve the STOP COVID - ProteGO Safe application in their acquisition and storage.
 
 - We assume the need for interoperability - data exchange with other projects in Europe and this requires a federation model. A secure standard for data exchange between systems to CT and the possibility of extending the basic model.
 
-- Further development of the informative and educational part of the ProteGO Safe application is needed.
+- Further development of the informative and educational part of the STOP COVID - ProteGO Safe application is needed.
 
 The project is being developed at the request of Ministry of Digital Affairs, by a consortium of companies: Tytani24 Sp. z o.o. (leaders), The Coders Sp. z o.o. , Webini Sp. z o.o. , Sigma Connectivity Sp. z o.o. , 25wat Sp. z o.o. , Klimas Legal, Mobile Flag, HOLDAPP supported by all willing contributors.
 
@@ -98,7 +98,7 @@ Scope: - purposeful and desirable lack of synchronization with Google Analytics.
 
 ## [done] Version 3.0 functionalities scope
 
-The user downloads or updates ProteGO Safe 3.0 with OpenTrace module, there is no possibility (and no view) to provide the phone number (user does not provide the phone number in the app – we’re not collecting this information in any form). The server grants the application (not the phone number) UID, an anonymized, unique number of this installation (app) – with UID it communicates with the app. For each UID backend generates the TempID (saves on device arrays with the list of TempID numbers for 2 weeks ahead – the app switches TempID every 15 minutes). TempIDs are used to anonymize users in the tracing module (Bluetooth contact).
+The user downloads or updates STOP COVID - ProteGO Safe 3.0 with OpenTrace module, there is no possibility (and no view) to provide the phone number (user does not provide the phone number in the app – we’re not collecting this information in any form). The server grants the application (not the phone number) UID, an anonymized, unique number of this installation (app) – with UID it communicates with the app. For each UID backend generates the TempID (saves on device arrays with the list of TempID numbers for 2 weeks ahead – the app switches TempID every 15 minutes). TempIDs are used to anonymize users in the tracing module (Bluetooth contact).
 
 When the user begins to use the application he is asked to let the app to: - Android: “Using location services” (to scan for nearby devices we need permission for “Location”. In practice it’s required for using the Bluetooth module. App does not use GPS for device geolocation). - iOS: “Permission to use Bluetooth module”. After being granted these permissions, the app turns on the OpenTrace module, running in the background (only on Android system, on iOS the ability to use Bluetooth in the app that’s working “in the background” is highly restricted), also after the user leaves the app and locks the screen (as much as operating system allows it).
 
@@ -123,7 +123,7 @@ The FAQ is available here: [FAQ](FAQ.md). (Polish Language version only)
 
 Guidelines and Code of Conduct for contributors is available here: [Contributing](.github/CONTRIBUTING.md). (Polish Language version only)
 
-## ProteGO Safe and it’s documentation is licensed under
+## STOP COVID - ProteGO Safe and it’s documentation is licensed under
 
 The application’s source code is available under a well-known and open GPL-3.0 license. Link to the GitHub repository: https://github.com/ProteGO-Safe GNU General Public License v3.0
 Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
